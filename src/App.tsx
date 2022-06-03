@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Header from "./layout/header";
+import {createTheme, ThemeProvider} from "@mui/material";
+import SpreadsheetPage from "./routes/spreadsheet";
+
+const muiTheme = createTheme({
+    palette: {
+        primary: {
+            main: '#43a047'
+        },
+        secondary: {
+            main: '#ffd54f'
+        }
+    }
+})
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <ThemeProvider theme={muiTheme}>
+            <BrowserRouter>
+                <Header/>
+                <Routes>
+                    <Route path={'/spreadsheet/:spreadsheetKey'} element={<SpreadsheetPage/>}/>
+                    <Route path={'/'}/>
+                </Routes>
+            </BrowserRouter>
+        </ThemeProvider>
     </div>
   );
 }

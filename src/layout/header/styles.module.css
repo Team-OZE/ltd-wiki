@@ -1,0 +1,46 @@
+.header {
+    padding: 1rem 2rem;
+    display: flex!important;
+    flex-direction: row!important;
+    align-items: center;
+    position: fixed!important;
+    height: 5rem;
+}
+
+/*.placeHolder {*/
+/*    height: 5rem;*/
+/*    width: 100vw;*/
+/*}*/
+
+body {
+    padding-top: 5rem;
+    background-color: black;
+}
+
+.titleText {
+    display: inline-flex;
+}
+
+.titleText > span {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.navContainer {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-right: -1rem;
+    width: auto!important;
+}
+.navContainer > div {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.navContainer > div > button {
+    font-weight: bold;
+}

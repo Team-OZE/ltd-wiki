@@ -1,0 +1,45 @@
+.th > th {
+    font-weight: bold;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.85);
+    border-bottom-color: rgba(255, 255, 255, 0.75);
+}
+
+.tdContainer {
+    display: flex;
+    align-items: center;
+}
+
+.tdContainer > img {
+    height: 32px;
+    width: 32px;
+    margin-right: 1em;
+    border-radius: 4px;
+}
+
+.abbr {
+    cursor: help;
+    text-decoration: none;
+}
+
+.tr > td:nth-child(2) {
+    font-weight: bold;
+}
+.trH > td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom-color: rgba(255,255,255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.tr > td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom-color: rgba(255,255,255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+}
+.tr:nth-child(2n-1) {
+    background-color: rgba(0, 255, 255, 0.075);
+}

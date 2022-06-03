@@ -1,0 +1,1334 @@
+[
+  {
+    "id": "h04O",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Militia",
+    "lumberCost": 20,
+    "bounty": 1,
+    "income": 1,
+    "hp": 115,
+    "movementSpeed": 270,
+    "attackSpeed": 0.65,
+    "range": 120,
+    "attackType": "normal",
+    "damage": {
+      "min": 8,
+      "max": 9
+    },
+    "abilities": [],
+    "armorType": "small"
+  },
+  {
+    "id": "h04P",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Bowman",
+    "lumberCost": 40,
+    "bounty": 2,
+    "income": 2,
+    "hp": 70,
+    "movementSpeed": 250,
+    "attackSpeed": 0.9,
+    "range": 400,
+    "attackType": "pierce",
+    "damage": {
+      "min": 10,
+      "max": 12
+    },
+    "abilities": [],
+    "armorType": "small"
+  },
+  {
+    "id": "h04R",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Ghoul",
+    "lumberCost": 40,
+    "bounty": 2,
+    "income": 2,
+    "hp": 180,
+    "movementSpeed": 270,
+    "attackSpeed": 0.9,
+    "range": 120,
+    "attackType": "normal",
+    "damage": {
+      "min": 15,
+      "max": 18
+    },
+    "abilities": [],
+    "armorType": "medium"
+  },
+  {
+    "id": "h04S",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Warrior",
+    "lumberCost": 60,
+    "bounty": 3,
+    "income": 2,
+    "hp": 280,
+    "movementSpeed": 270,
+    "attackSpeed": 1.3,
+    "range": 120,
+    "attackType": "normal",
+    "damage": {
+      "min": 26,
+      "max": 28
+    },
+    "abilities": [
+      {
+        "id": "A04G",
+        "name": "Swipe",
+        "displayName": "Swipe",
+        "description": "Each attack has a 25% chance to stun for 1 second"
+      },
+      {
+        "id": "A923",
+        "name": "Slam",
+        "displayName": "Slam",
+        "description": "Slaming 'n' danking"
+      }
+    ],
+    "armorType": "large"
+  },
+  {
+    "id": "h04Q",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Whelp",
+    "lumberCost": 100,
+    "bounty": 5,
+    "income": 5,
+    "hp": 250,
+    "movementSpeed": 270,
+    "attackSpeed": 1.4,
+    "range": 200,
+    "attackType": "chaos",
+    "damage": {
+      "min": 34,
+      "max": 36
+    },
+    "abilities": [],
+    "armorType": "medium"
+  },
+  {
+    "id": "h04T",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Hermit",
+    "lumberCost": 100,
+    "bounty": 5,
+    "income": 5,
+    "hp": 250,
+    "movementSpeed": 250,
+    "attackSpeed": 1.1,
+    "range": 250,
+    "attackType": "magic",
+    "damage": {
+      "min": 25,
+      "max": 27
+    },
+    "abilities": [
+      {
+        "id": "A035",
+        "name": "Healing Aura",
+        "displayName": "Healing Aura",
+        "description": "This unit is being healed."
+      }
+    ],
+    "armorType": "small"
+  },
+  {
+    "id": "h04U",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Dino",
+    "lumberCost": 120,
+    "bounty": 6,
+    "income": 6,
+    "hp": 275,
+    "movementSpeed": 200,
+    "attackSpeed": 1.0,
+    "range": 300,
+    "attackType": "magic",
+    "damage": {
+      "min": 31,
+      "max": 35
+    },
+    "abilities": [
+      {
+        "id": "A0BM",
+        "name": "Thunder attack",
+        "displayName": "Thunder attack",
+        "description": ""
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h04V",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Commander",
+    "lumberCost": 120,
+    "bounty": 6,
+    "income": 6,
+    "hp": 290,
+    "movementSpeed": 250,
+    "attackSpeed": 1.2,
+    "range": 300,
+    "attackType": "pierce",
+    "damage": {
+      "min": 30,
+      "max": 32
+    },
+    "abilities": [
+      {
+        "id": "A01K",
+        "name": "Battle Drums",
+        "displayName": "Battle Drums",
+        "description": "Increases the damage of nearby friendly units by 8%."
+      }
+    ],
+    "armorType": "fortified"
+  },
+  {
+    "id": "h04W",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Furbolg",
+    "lumberCost": 140,
+    "bounty": 7,
+    "income": 7,
+    "hp": 425,
+    "movementSpeed": 285,
+    "attackSpeed": 1.0,
+    "range": 90,
+    "attackType": "normal",
+    "damage": {
+      "min": 36,
+      "max": 50
+    },
+    "abilities": [
+      {
+        "id": "A07E",
+        "name": "Resilience Aura",
+        "displayName": "Resilience Aura",
+        "description": "Gives 3 additional armor to nearby friendly units."
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h04X",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Wyvern",
+    "lumberCost": 180,
+    "bounty": 9,
+    "income": 9,
+    "hp": 390,
+    "movementSpeed": 270,
+    "attackSpeed": 1.1,
+    "range": 300,
+    "attackType": "pierce",
+    "damage": {
+      "min": 41,
+      "max": 47
+    },
+    "abilities": [
+      {
+        "id": "A900",
+        "name": "Violate",
+        "displayName": "Violate",
+        "description": "Attacks reduce the armor of enemy units by 1 for 4 seconds (2 sec on King)."
+      }
+    ],
+    "armorType": "small"
+  },
+  {
+    "id": "h04Y",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Chariot",
+    "lumberCost": 200,
+    "bounty": 10,
+    "income": 10,
+    "hp": 260,
+    "movementSpeed": 270,
+    "attackSpeed": 1.8,
+    "range": 700,
+    "attackType": "siege",
+    "damage": {
+      "min": 35,
+      "max": 43
+    },
+    "abilities": [
+      {
+        "id": "A037",
+        "name": "Regicide",
+        "displayName": "Regicide",
+        "description": "Deals 3x damage to King."
+      },
+      {
+        "id": "A959",
+        "name": "Magic Damage Reduction",
+        "displayName": "Magic Damage Reduction",
+        "description": ""
+      }
+    ],
+    "armorType": "fortified"
+  },
+  {
+    "id": "h04Z",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Blood Orc",
+    "lumberCost": 200,
+    "bounty": 10,
+    "income": 10,
+    "hp": 700,
+    "movementSpeed": 270,
+    "attackSpeed": 1.2,
+    "range": 120,
+    "attackType": "normal",
+    "damage": {
+      "min": 66,
+      "max": 72
+    },
+    "abilities": [],
+    "armorType": "large"
+  },
+  {
+    "id": "h050",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Frost Wolf",
+    "lumberCost": 240,
+    "bounty": 12,
+    "income": 12,
+    "hp": 800,
+    "movementSpeed": 270,
+    "attackSpeed": 0.7,
+    "range": 90,
+    "attackType": "normal",
+    "damage": {
+      "min": 46,
+      "max": 54
+    },
+    "abilities": [
+      {
+        "id": "A03J",
+        "name": "Frost Aura",
+        "displayName": "Frost Aura",
+        "description": "This unit slows nearby enemies."
+      },
+      {
+        "id": "A039",
+        "name": "Frost Aura",
+        "displayName": "Frost Aura",
+        "description": "This unit is slowed."
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h051",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Ice Troll",
+    "lumberCost": 240,
+    "bounty": 12,
+    "income": 12,
+    "hp": 545,
+    "movementSpeed": 250,
+    "attackSpeed": 1.2,
+    "range": 425,
+    "attackType": "pierce",
+    "damage": {
+      "min": 54,
+      "max": 62
+    },
+    "abilities": [
+      {
+        "id": "A01M",
+        "name": "Cold Attack",
+        "displayName": "Cold Attack",
+        "description": "Adds a cold effect to this unit's attacks that slows enemy units' movement speed for 4 seconds. Duration vs King 1.4 sec"
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h052",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Warlock",
+    "lumberCost": 300,
+    "bounty": 15,
+    "income": 14,
+    "hp": 585,
+    "movementSpeed": 250,
+    "attackSpeed": 1.25,
+    "range": 535,
+    "attackType": "magic",
+    "damage": {
+      "min": 59,
+      "max": 67
+    },
+    "abilities": [
+      {
+        "id": "A03A",
+        "name": "Corruption",
+        "displayName": "Corruption",
+        "description": "Reduce enemy's armor by 4. ( Last 4 seconds on creep, 2 seconds on hero)"
+      }
+    ],
+    "armorType": "small"
+  },
+  {
+    "id": "h053",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Pandaren",
+    "lumberCost": 320,
+    "bounty": 15,
+    "income": 15,
+    "hp": 775,
+    "movementSpeed": 220,
+    "attackSpeed": 1.0,
+    "range": 90,
+    "attackType": "normal",
+    "damage": {
+      "min": 82,
+      "max": 90
+    },
+    "abilities": [
+      {
+        "id": "A0CD",
+        "name": "Rush",
+        "displayName": "Rush",
+        "description": "Increases nearby friendly units' movement speed by 12% and life regeneration rate by 4hp\/s."
+      }
+    ],
+    "armorType": "large"
+  },
+  {
+    "id": "h055",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Ballista",
+    "lumberCost": 340,
+    "bounty": 17,
+    "income": 17,
+    "hp": 350,
+    "movementSpeed": 270,
+    "attackSpeed": 1.6,
+    "range": 700,
+    "attackType": "siege",
+    "damage": {
+      "min": 75,
+      "max": 80
+    },
+    "abilities": [
+      {
+        "id": "A037",
+        "name": "Regicide",
+        "displayName": "Regicide",
+        "description": "Deals 3x damage to King."
+      },
+      {
+        "id": "A959",
+        "name": "Magic Damage Reduction",
+        "displayName": "Magic Damage Reduction",
+        "description": ""
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h056",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Shaman",
+    "lumberCost": 400,
+    "bounty": 20,
+    "income": 18,
+    "hp": 770,
+    "movementSpeed": 250,
+    "attackSpeed": 0.9,
+    "range": 400,
+    "attackType": "magic",
+    "damage": {
+      "min": 65,
+      "max": 73
+    },
+    "abilities": [
+      {
+        "id": "A03B",
+        "name": "Blood Rush",
+        "displayName": "Blood Rush",
+        "description": "The combat speed of the indicated warrior is increased by40%, and the speed of its movement- on the25%. Time of action- 40 sec."
+      }
+    ],
+    "armorType": "small"
+  },
+  {
+    "id": "h057",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Pudge",
+    "lumberCost": 400,
+    "bounty": 20,
+    "income": 17,
+    "hp": 1050,
+    "movementSpeed": 270,
+    "attackSpeed": 1.3,
+    "range": 90,
+    "attackType": "normal",
+    "damage": {
+      "min": 141,
+      "max": 159
+    },
+    "abilities": [
+      {
+        "id": "A03C",
+        "name": "Fresh Meat",
+        "displayName": "Fresh Meat",
+        "description": "Nearby friendly melee units gain 8% life steal."
+      }
+    ],
+    "armorType": "large"
+  },
+  {
+    "id": "h05M",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Gargoyle",
+    "lumberCost": 440,
+    "bounty": 22,
+    "income": 22,
+    "hp": 1200,
+    "movementSpeed": 270,
+    "attackSpeed": 1.0,
+    "range": 350,
+    "attackType": "normal",
+    "damage": {
+      "min": 135,
+      "max": 140
+    },
+    "abilities": [],
+    "armorType": "medium"
+  },
+  {
+    "id": "h059",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Behemoth",
+    "lumberCost": 500,
+    "bounty": 25,
+    "income": 25,
+    "hp": 1420,
+    "movementSpeed": 270,
+    "attackSpeed": 1.3,
+    "range": 90,
+    "attackType": "siege",
+    "damage": {
+      "min": 145,
+      "max": 155
+    },
+    "abilities": [
+      {
+        "id": "A0HT",
+        "name": "Resilience Aura",
+        "displayName": "Resilience Aura",
+        "description": "Gives 5 additional armor to nearby friendly units."
+      }
+    ],
+    "armorType": "fortified"
+  },
+  {
+    "id": "h05B",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Kraken",
+    "lumberCost": 600,
+    "bounty": 30,
+    "income": 30,
+    "hp": 1285,
+    "movementSpeed": 270,
+    "attackSpeed": 1.2,
+    "range": 350,
+    "attackType": "pierce",
+    "damage": {
+      "min": 131,
+      "max": 145
+    },
+    "abilities": [
+      {
+        "id": "A038",
+        "name": "Immune to magic",
+        "displayName": "Immune to magic",
+        "description": "This warrior becomes immune to magic."
+      },
+      {
+        "id": "A03E",
+        "name": "Kraken Poison",
+        "displayName": "Kraken Poison",
+        "description": "20% slow mspd\/aspd and 20 dps for 6 sec."
+      },
+      {
+        "id": "A03K",
+        "name": "Healing Aura",
+        "displayName": "Healing Aura",
+        "description": "This unit is being healed."
+      }
+    ],
+    "armorType": "large"
+  },
+  {
+    "id": "h05A",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Infernal",
+    "lumberCost": 1000,
+    "bounty": 50,
+    "income": 50,
+    "hp": 1500,
+    "movementSpeed": 260,
+    "attackSpeed": 0.8,
+    "range": 140,
+    "attackType": "chaos",
+    "damage": {
+      "min": 155,
+      "max": 173
+    },
+    "abilities": [
+      {
+        "id": "A038",
+        "name": "Immune to magic",
+        "displayName": "Immune to magic",
+        "description": "This warrior becomes immune to magic."
+      },
+      {
+        "id": "A03D",
+        "name": "Swipe",
+        "displayName": "Swipe",
+        "description": "Each attack has a 17% chance to deal 180 bonus damage and stun for 1 (0.5) seconds."
+      },
+      {
+        "id": "A01T",
+        "name": "King's Permanent Immolation",
+        "displayName": "King's Permanent Immolation",
+        "description": "Burns nearby enemy units for 30 points of damage per second."
+      }
+    ],
+    "armorType": "fortified"
+  },
+  {
+    "id": "h0BR",
+    "type": "summon",
+    "mode": "x1",
+    "name": "Demon",
+    "lumberCost": 1500,
+    "bounty": 75,
+    "income": 70,
+    "hp": 3000,
+    "movementSpeed": 280,
+    "attackSpeed": 0.7,
+    "range": 400,
+    "attackType": "chaos",
+    "damage": {
+      "min": 221,
+      "max": 257
+    },
+    "abilities": [
+      {
+        "id": "A038",
+        "name": "Immune to magic",
+        "displayName": "Immune to magic",
+        "description": "This warrior becomes immune to magic."
+      },
+      {
+        "id": "A043",
+        "name": "Swiftness Aura",
+        "displayName": "Swiftness Aura",
+        "description": "Increases nearby ally movement by 15%."
+      },
+      {
+        "id": "A0BL",
+        "name": "Command Aura",
+        "displayName": "Command Aura",
+        "description": "Increases nearby friendly units attack damage."
+      }
+    ],
+    "armorType": "none"
+  },
+  {
+    "id": "h14O",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Militia",
+    "lumberCost": 50,
+    "bounty": 15,
+    "income": 2,
+    "hp": 245,
+    "movementSpeed": 270,
+    "attackSpeed": 0.65,
+    "range": 120,
+    "attackType": "normal",
+    "damage": {
+      "min": 14,
+      "max": 20
+    },
+    "abilities": [],
+    "armorType": "small"
+  },
+  {
+    "id": "h14P",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Bowman",
+    "lumberCost": 100,
+    "bounty": 15,
+    "income": 5,
+    "hp": 150,
+    "movementSpeed": 250,
+    "attackSpeed": 0.9,
+    "range": 400,
+    "attackType": "pierce",
+    "damage": {
+      "min": 20,
+      "max": 22
+    },
+    "abilities": [],
+    "armorType": "small"
+  },
+  {
+    "id": "h14R",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Ghoul",
+    "lumberCost": 100,
+    "bounty": 15,
+    "income": 5,
+    "hp": 360,
+    "movementSpeed": 270,
+    "attackSpeed": 0.9,
+    "range": 120,
+    "attackType": "normal",
+    "damage": {
+      "min": 32,
+      "max": 34
+    },
+    "abilities": [],
+    "armorType": "medium"
+  },
+  {
+    "id": "h14S",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Warrior",
+    "lumberCost": 150,
+    "bounty": 15,
+    "income": 5,
+    "hp": 560,
+    "movementSpeed": 270,
+    "attackSpeed": 1.3,
+    "range": 120,
+    "attackType": "normal",
+    "damage": {
+      "min": 52,
+      "max": 56
+    },
+    "abilities": [
+      {
+        "id": "A04G",
+        "name": "Swipe",
+        "displayName": "Swipe",
+        "description": "Each attack has a 25% chance to stun for 1 second"
+      },
+      {
+        "id": "A923",
+        "name": "Slam",
+        "displayName": "Slam",
+        "description": "Slaming 'n' danking"
+      }
+    ],
+    "armorType": "large"
+  },
+  {
+    "id": "h14Q",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Whelp",
+    "lumberCost": 250,
+    "bounty": 15,
+    "income": 12,
+    "hp": 450,
+    "movementSpeed": 270,
+    "attackSpeed": 1.4,
+    "range": 200,
+    "attackType": "chaos",
+    "damage": {
+      "min": 68,
+      "max": 72
+    },
+    "abilities": [],
+    "armorType": "medium"
+  },
+  {
+    "id": "h14T",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Hermit",
+    "lumberCost": 250,
+    "bounty": 15,
+    "income": 12,
+    "hp": 450,
+    "movementSpeed": 250,
+    "attackSpeed": 1.1,
+    "range": 250,
+    "attackType": "magic",
+    "damage": {
+      "min": 50,
+      "max": 55
+    },
+    "abilities": [
+      {
+        "id": "A035",
+        "name": "Healing Aura",
+        "displayName": "Healing Aura",
+        "description": "This unit is being healed."
+      }
+    ],
+    "armorType": "small"
+  },
+  {
+    "id": "h14U",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Dino",
+    "lumberCost": 300,
+    "bounty": 15,
+    "income": 15,
+    "hp": 475,
+    "movementSpeed": 200,
+    "attackSpeed": 1.0,
+    "range": 300,
+    "attackType": "magic",
+    "damage": {
+      "min": 64,
+      "max": 69
+    },
+    "abilities": [
+      {
+        "id": "A0BM",
+        "name": "Thunder attack",
+        "displayName": "Thunder attack",
+        "description": ""
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h14V",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Commander",
+    "lumberCost": 300,
+    "bounty": 15,
+    "income": 15,
+    "hp": 500,
+    "movementSpeed": 250,
+    "attackSpeed": 1.2,
+    "range": 300,
+    "attackType": "pierce",
+    "damage": {
+      "min": 61,
+      "max": 61
+    },
+    "abilities": [
+      {
+        "id": "A01K",
+        "name": "Battle Drums",
+        "displayName": "Battle Drums",
+        "description": "Increases the damage of nearby friendly units by 8%."
+      }
+    ],
+    "armorType": "fortified"
+  },
+  {
+    "id": "h14W",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Furbolg",
+    "lumberCost": 350,
+    "bounty": 18,
+    "income": 18,
+    "hp": 725,
+    "movementSpeed": 285,
+    "attackSpeed": 1.0,
+    "range": 90,
+    "attackType": "normal",
+    "damage": {
+      "min": 84,
+      "max": 89
+    },
+    "abilities": [
+      {
+        "id": "A07E",
+        "name": "Resilience Aura",
+        "displayName": "Resilience Aura",
+        "description": "Gives 3 additional armor to nearby friendly units."
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h14X",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Wyvern",
+    "lumberCost": 450,
+    "bounty": 23,
+    "income": 22,
+    "hp": 670,
+    "movementSpeed": 270,
+    "attackSpeed": 1.1,
+    "range": 300,
+    "attackType": "pierce",
+    "damage": {
+      "min": 85,
+      "max": 90
+    },
+    "abilities": [
+      {
+        "id": "A900",
+        "name": "Violate",
+        "displayName": "Violate",
+        "description": "Attacks reduce the armor of enemy units by 1 for 4 seconds (2 sec on King)."
+      }
+    ],
+    "armorType": "small"
+  },
+  {
+    "id": "h14Y",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Chariot",
+    "lumberCost": 500,
+    "bounty": 25,
+    "income": 25,
+    "hp": 500,
+    "movementSpeed": 270,
+    "attackSpeed": 1.8,
+    "range": 700,
+    "attackType": "siege",
+    "damage": {
+      "min": 75,
+      "max": 82
+    },
+    "abilities": [
+      {
+        "id": "A037",
+        "name": "Regicide",
+        "displayName": "Regicide",
+        "description": "Deals 3x damage to King."
+      },
+      {
+        "id": "A959",
+        "name": "Magic Damage Reduction",
+        "displayName": "Magic Damage Reduction",
+        "description": ""
+      }
+    ],
+    "armorType": "fortified"
+  },
+  {
+    "id": "h14Z",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Blood Orc",
+    "lumberCost": 500,
+    "bounty": 25,
+    "income": 25,
+    "hp": 1500,
+    "movementSpeed": 270,
+    "attackSpeed": 1.2,
+    "range": 90,
+    "attackType": "normal",
+    "damage": {
+      "min": 132,
+      "max": 138
+    },
+    "abilities": [],
+    "armorType": "large"
+  },
+  {
+    "id": "h150",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Frost Wolf",
+    "lumberCost": 600,
+    "bounty": 30,
+    "income": 30,
+    "hp": 1700,
+    "movementSpeed": 270,
+    "attackSpeed": 0.7,
+    "range": 90,
+    "attackType": "normal",
+    "damage": {
+      "min": 98,
+      "max": 103
+    },
+    "abilities": [
+      {
+        "id": "A03J",
+        "name": "Frost Aura",
+        "displayName": "Frost Aura",
+        "description": "This unit slows nearby enemies."
+      },
+      {
+        "id": "A039",
+        "name": "Frost Aura",
+        "displayName": "Frost Aura",
+        "description": "This unit is slowed."
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h151",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Ice Troll",
+    "lumberCost": 600,
+    "bounty": 30,
+    "income": 30,
+    "hp": 1100,
+    "movementSpeed": 250,
+    "attackSpeed": 1.2,
+    "range": 365,
+    "attackType": "pierce",
+    "damage": {
+      "min": 110,
+      "max": 115
+    },
+    "abilities": [
+      {
+        "id": "A01M",
+        "name": "Cold Attack",
+        "displayName": "Cold Attack",
+        "description": "Adds a cold effect to this unit's attacks that slows enemy units' movement speed for 4 seconds. Duration vs King 1.4 sec"
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h152",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Warlock",
+    "lumberCost": 750,
+    "bounty": 38,
+    "income": 38,
+    "hp": 1200,
+    "movementSpeed": 250,
+    "attackSpeed": 1.25,
+    "range": 535,
+    "attackType": "magic",
+    "damage": {
+      "min": 125,
+      "max": 130
+    },
+    "abilities": [
+      {
+        "id": "A03A",
+        "name": "Corruption",
+        "displayName": "Corruption",
+        "description": "Reduce enemy's armor by 4. ( Last 4 seconds on creep, 2 seconds on hero)"
+      }
+    ],
+    "armorType": "small"
+  },
+  {
+    "id": "h153",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Pandaren",
+    "lumberCost": 800,
+    "bounty": 38,
+    "income": 40,
+    "hp": 1700,
+    "movementSpeed": 220,
+    "attackSpeed": 1.0,
+    "range": 90,
+    "attackType": "normal",
+    "damage": {
+      "min": 170,
+      "max": 175
+    },
+    "abilities": [
+      {
+        "id": "A0CD",
+        "name": "Rush",
+        "displayName": "Rush",
+        "description": "Increases nearby friendly units' movement speed by 12% and life regeneration rate by 4hp\/s."
+      }
+    ],
+    "armorType": "large"
+  },
+  {
+    "id": "h155",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Ballista",
+    "lumberCost": 850,
+    "bounty": 43,
+    "income": 42,
+    "hp": 550,
+    "movementSpeed": 270,
+    "attackSpeed": 1.6,
+    "range": 700,
+    "attackType": "siege",
+    "damage": {
+      "min": 150,
+      "max": 155
+    },
+    "abilities": [
+      {
+        "id": "A037",
+        "name": "Regicide",
+        "displayName": "Regicide",
+        "description": "Deals 3x damage to King."
+      },
+      {
+        "id": "A959",
+        "name": "Magic Damage Reduction",
+        "displayName": "Magic Damage Reduction",
+        "description": ""
+      }
+    ],
+    "armorType": "medium"
+  },
+  {
+    "id": "h156",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Shaman",
+    "lumberCost": 1000,
+    "bounty": 50,
+    "income": 45,
+    "hp": 1500,
+    "movementSpeed": 250,
+    "attackSpeed": 0.9,
+    "range": 400,
+    "attackType": "magic",
+    "damage": {
+      "min": 135,
+      "max": 140
+    },
+    "abilities": [
+      {
+        "id": "A03B",
+        "name": "Blood Rush",
+        "displayName": "Blood Rush",
+        "description": "The combat speed of the indicated warrior is increased by40%, and the speed of its movement- on the25%. Time of action- 40 sec."
+      }
+    ],
+    "armorType": "small"
+  },
+  {
+    "id": "h157",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Pudge",
+    "lumberCost": 1000,
+    "bounty": 50,
+    "income": 50,
+    "hp": 2850,
+    "movementSpeed": 270,
+    "attackSpeed": 1.3,
+    "range": 90,
+    "attackType": "normal",
+    "damage": {
+      "min": 296,
+      "max": 303
+    },
+    "abilities": [
+      {
+        "id": "A03C",
+        "name": "Fresh Meat",
+        "displayName": "Fresh Meat",
+        "description": "Nearby friendly melee units gain 8% life steal."
+      }
+    ],
+    "armorType": "large"
+  },
+  {
+    "id": "h15M",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Gargoyle",
+    "lumberCost": 1100,
+    "bounty": 55,
+    "income": 55,
+    "hp": 2000,
+    "movementSpeed": 270,
+    "attackSpeed": 1.0,
+    "range": 350,
+    "attackType": "normal",
+    "damage": {
+      "min": 280,
+      "max": 285
+    },
+    "abilities": [],
+    "armorType": "medium"
+  },
+  {
+    "id": "h159",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Behemoth",
+    "lumberCost": 1250,
+    "bounty": 63,
+    "income": 62,
+    "hp": 3000,
+    "movementSpeed": 270,
+    "attackSpeed": 1.3,
+    "range": 90,
+    "attackType": "siege",
+    "damage": {
+      "min": 210,
+      "max": 218
+    },
+    "abilities": [
+      {
+        "id": "A0HT",
+        "name": "Resilience Aura",
+        "displayName": "Resilience Aura",
+        "description": "Gives 5 additional armor to nearby friendly units."
+      }
+    ],
+    "armorType": "fortified"
+  },
+  {
+    "id": "h15B",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Kraken",
+    "lumberCost": 1500,
+    "bounty": 75,
+    "income": 75,
+    "hp": 2250,
+    "movementSpeed": 270,
+    "attackSpeed": 1.2,
+    "range": 400,
+    "attackType": "pierce",
+    "damage": {
+      "min": 260,
+      "max": 275
+    },
+    "abilities": [
+      {
+        "id": "A038",
+        "name": "Immune to magic",
+        "displayName": "Immune to magic",
+        "description": "This warrior becomes immune to magic."
+      },
+      {
+        "id": "A03E",
+        "name": "Kraken Poison",
+        "displayName": "Kraken Poison",
+        "description": "20% slow mspd\/aspd and 20 dps for 6 sec."
+      },
+      {
+        "id": "A03K",
+        "name": "Healing Aura",
+        "displayName": "Healing Aura",
+        "description": "This unit is being healed."
+      }
+    ],
+    "armorType": "large"
+  },
+  {
+    "id": "h15A",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Infernal",
+    "lumberCost": 2500,
+    "bounty": 125,
+    "income": 125,
+    "hp": 3200,
+    "movementSpeed": 260,
+    "attackSpeed": 0.8,
+    "range": 140,
+    "attackType": "chaos",
+    "damage": {
+      "min": 330,
+      "max": 348
+    },
+    "abilities": [
+      {
+        "id": "A038",
+        "name": "Immune to magic",
+        "displayName": "Immune to magic",
+        "description": "This warrior becomes immune to magic."
+      },
+      {
+        "id": "A03D",
+        "name": "Swipe",
+        "displayName": "Swipe",
+        "description": "Each attack has a 17% chance to deal 180 bonus damage and stun for 1 (0.5) seconds."
+      },
+      {
+        "id": "A01T",
+        "name": "King's Permanent Immolation",
+        "displayName": "King's Permanent Immolation",
+        "description": "Burns nearby enemy units for 30 points of damage per second."
+      }
+    ],
+    "armorType": "fortified"
+  },
+  {
+    "id": "h1BR",
+    "type": "summon",
+    "mode": "x4",
+    "name": "Demon",
+    "lumberCost": 3750,
+    "bounty": 188,
+    "income": 175,
+    "hp": 4800,
+    "movementSpeed": 280,
+    "attackSpeed": 0.7,
+    "range": 350,
+    "attackType": "chaos",
+    "damage": {
+      "min": 450,
+      "max": 470
+    },
+    "abilities": [
+      {
+        "id": "A038",
+        "name": "Immune to magic",
+        "displayName": "Immune to magic",
+        "description": "This warrior becomes immune to magic."
+      },
+      {
+        "id": "A043",
+        "name": "Swiftness Aura",
+        "displayName": "Swiftness Aura",
+        "description": "Increases nearby ally movement by 15%."
+      },
+      {
+        "id": "A0BL",
+        "name": "Command Aura",
+        "displayName": "Command Aura",
+        "description": "Increases nearby friendly units attack damage."
+      }
+    ],
+    "armorType": "none"
+  }
+]
