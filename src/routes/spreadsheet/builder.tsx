@@ -82,7 +82,12 @@ export default function BuilderSpreadsheet() {
                 {h}
                 {renderUnit(x, col)}
                 {/* @ts-ignore */}
-                {x.upgrades.map(y=>renderUnit(units.find(k=>k.id === y), col))}
+                {x.upgrades.map(y=><>
+                    {/* @ts-ignore */}
+                    {renderUnit(units.find(k=>k.id === y), col)}
+                    {/* @ts-ignore */}
+                    {units.find(k=>k.id === y).upgrades.map(z=>renderUnit(units.find(k=>k.id === z), col))}
+                </>)}
             </>
         })
     }
