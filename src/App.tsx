@@ -7,6 +7,7 @@ import SpreadsheetPage from "./routes/spreadsheet";
 
 const muiTheme = createTheme({
     palette: {
+        mode: 'dark',
         primary: {
             main: '#43a047'
         },

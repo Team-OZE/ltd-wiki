@@ -5,29 +5,16 @@ import styles from './styles.module.css'
 import {Ability} from "../../types/Ability";
 import React, {useEffect, useState} from "react";
 import {UnitFighter} from "../../types/units/UnitFighter";
+import {calculateKingUpgradesNeededToKillWithHits, formatWc3String} from "./helper";
 const endpoint = '/assets/data/fighter.json'
 export default function BuilderSpreadsheet() {
     const [data, setData] = useState<UnitFighter[]>([])
 
     useEffect(()=>{
+
+        console.log(calculateKingUpgradesNeededToKillWithHits(3, 530, 10, 'x1'))
         fetch(endpoint).then((d)=>d.json()).then(setData)
     },[])
-
-    useEffect(()=>{
-        console.log(data)
-    },[data])
-
-    const formatWc3String = (s: string) => {
-        // @ts-ignore
-        if(s.includes('|c') || s.includes('|n')) {
-            console.log(s)
-            s = s.replace(/\|c([0-9A-F]{2})([0-9A-F]{6})(.*)\|r/g, '<span style="color: #$2">$3</span>')
-            s = s.replace(/\|n/g, '<br/>')
-            console.log(s)
-            return <span dangerouslySetInnerHTML={{__html: s}}/>
-        }
-        else return s
-    }
 
     const AbilityRender: React.FC<{ability: Ability}> = ({ability}) => {
         return <Tooltip className={styles.abbr} title={formatWc3String(ability.description)} placement={'top'}><span>{ability.name}</span></Tooltip>
@@ -52,6 +39,7 @@ export default function BuilderSpreadsheet() {
             <TableCell>{x.range}</TableCell>
             <TableCell>{x.damage.min} - {x.damage.max}</TableCell>
             <TableCell>{x.attackSpeed.toFixed(2) || 'N/A'}</TableCell>
+            <TableCell>{((x.damage.min + x.damage.max) / (2*x.attackSpeed)).toFixed(1)}</TableCell>
             <TableCell>{x.movementSpeed.toFixed(0) || 'N/A'}</TableCell>
             {/*@ts-ignore*/}
             <TableCell><span className={styles.tdContainer}>{(x.attackType) && <img src={`/assets/icons/attack/${x.attackType}.webp`}/>}{x.attackType? AttackType[x.attackType] : 'N/A'}</span></TableCell>
@@ -102,6 +90,7 @@ export default function BuilderSpreadsheet() {
                 <TableCell>Range</TableCell>
                 <TableCell>Damage</TableCell>
                 <TableCell>Att Speed</TableCell>
+                <TableCell>DPS</TableCell>
                 <TableCell>Mov Speed</TableCell>
                 <TableCell>Attack</TableCell>
                 <TableCell>Armor</TableCell>

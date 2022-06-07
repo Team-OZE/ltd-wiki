@@ -5,6 +5,7 @@ import styles from './styles.module.css'
 import {Ability} from "../../types/Ability";
 import React, {useEffect, useState} from "react";
 import {UnitFighter} from "../../types/units/UnitFighter";
+import {formatWc3String} from "./helper";
 const endpoint = '/assets/data/hero.json'
 export default function HeroSpreadsheet() {
     const [data, setData] = useState<UnitFighter[]>([])
@@ -16,18 +17,6 @@ export default function HeroSpreadsheet() {
     useEffect(()=>{
         console.log(data)
     },[data])
-
-    const formatWc3String = (s: string) => {
-        // @ts-ignore
-        if(s.includes('|c') || s.includes('|n')) {
-            console.log(s)
-            s = s.replace(/\|c([0-9A-Fa-f]{6})([0-9A-Fa-f]{2})(.*)\|r/g, '<span style="color: #$1">$3</span>')
-            s = s.replace(/\|n/g, '<br/>')
-            console.log(s)
-            return <span dangerouslySetInnerHTML={{__html: s}}/>
-        }
-        else return s
-    }
 
     const AbilityRender: React.FC<{ability: Ability}> = ({ability}) => {
         return <Tooltip className={styles.abbr} title={formatWc3String(ability.description)} placement={'top'}><span>{ability.name}</span></Tooltip>
@@ -52,6 +41,7 @@ export default function HeroSpreadsheet() {
             <TableCell>{x.range}</TableCell>
             <TableCell>{x.damage.min} - {x.damage.max}</TableCell>
             <TableCell>{x.attackSpeed.toFixed(2) || 'N/A'}</TableCell>
+            <TableCell>{((x.damage.min + x.damage.max) / (2*x.attackSpeed)).toFixed(1)}</TableCell>
             <TableCell>{x.movementSpeed.toFixed(0) || 'N/A'}</TableCell>
             {/*@ts-ignore*/}
             <TableCell><span className={styles.tdContainer}>{(x.attackType) && <img src={`/assets/icons/attack/${x.attackType}.webp`}/>}{x.attackType? AttackType[x.attackType] : 'N/A'}</span></TableCell>
@@ -89,6 +79,7 @@ export default function HeroSpreadsheet() {
                 <TableCell>Range</TableCell>
                 <TableCell>Damage</TableCell>
                 <TableCell>Att Speed</TableCell>
+                <TableCell>DPS</TableCell>
                 <TableCell>Mov Speed</TableCell>
                 <TableCell>Attack</TableCell>
                 <TableCell>Armor</TableCell>
