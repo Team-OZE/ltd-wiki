@@ -250,7 +250,7 @@
     "goldCost": 190,
     "hp": 1185,
     "movementSpeed": 270,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.9,
     "attackType": "normal",
     "range": 180,
     "damage": {
@@ -268,7 +268,7 @@
     "type": "fighter",
     "tier": null,
     "name": "Krogoth",
-    "goldCost": 260,
+    "goldCost": 225,
     "hp": 3000,
     "movementSpeed": 270,
     "attackSpeed": 0.7,
@@ -301,7 +301,7 @@
     "attackType": "siege",
     "range": 325,
     "damage": {
-      "min": 100,
+      "min": 150,
       "max": 300
     },
     "abilities": [],
@@ -938,7 +938,7 @@
     "tier": 6.0,
     "name": "Yggdrasil",
     "goldCost": 310,
-    "hp": 1500,
+    "hp": 1800,
     "movementSpeed": 230,
     "attackSpeed": 0.8,
     "attackType": "magic",
@@ -1198,8 +1198,8 @@
     "attackType": "pierce",
     "range": 550,
     "damage": {
-      "min": 43,
-      "max": 52
+      "min": 47,
+      "max": 56
     },
     "abilities": [
       {
@@ -1553,7 +1553,7 @@
     "movementSpeed": 350,
     "attackSpeed": 0.8,
     "attackType": "magic",
-    "range": 300,
+    "range": 400,
     "damage": {
       "min": 51,
       "max": 61
@@ -2845,7 +2845,7 @@
     "tier": null,
     "name": "Trident",
     "goldCost": 190,
-    "hp": 2300,
+    "hp": 2500,
     "movementSpeed": 310,
     "attackSpeed": 0.7,
     "attackType": "normal",
@@ -3212,7 +3212,7 @@
     "tier": 6.0,
     "name": "Moon Guard",
     "goldCost": 275,
-    "hp": 1450,
+    "hp": 1700,
     "movementSpeed": 270,
     "attackSpeed": 0.5,
     "attackType": "normal",
@@ -3240,7 +3240,7 @@
     "tier": null,
     "name": "Warden",
     "goldCost": 350,
-    "hp": 2800,
+    "hp": 3000,
     "movementSpeed": 350,
     "attackSpeed": 0.48,
     "attackType": "normal",
@@ -3324,8 +3324,8 @@
     "attackType": "pierce",
     "range": 600,
     "damage": {
-      "min": 12,
-      "max": 13
+      "min": 16,
+      "max": 17
     },
     "abilities": [],
     "armorType": "small",
@@ -3345,8 +3345,8 @@
     "attackType": "pierce",
     "range": 600,
     "damage": {
-      "min": 28,
-      "max": 28
+      "min": 30,
+      "max": 30
     },
     "abilities": [
       {
@@ -3465,7 +3465,7 @@
     "type": "fighter",
     "tier": 5.0,
     "name": "Knight",
-    "goldCost": 190,
+    "goldCost": 150,
     "hp": 1080,
     "movementSpeed": 400,
     "attackSpeed": 0.9,
@@ -3486,7 +3486,7 @@
     "type": "fighter",
     "tier": null,
     "name": "Cavalier",
-    "goldCost": 220,
+    "goldCost": 200,
     "hp": 1950,
     "movementSpeed": 400,
     "attackSpeed": 0.77,
@@ -4435,7 +4435,7 @@
     "goldCost": 85,
     "hp": 1200,
     "movementSpeed": 270,
-    "attackSpeed": 1.1,
+    "attackSpeed": 1.0,
     "attackType": "normal",
     "range": 90,
     "damage": {
@@ -4594,8 +4594,8 @@
     "attackType": "chaos",
     "range": 180,
     "damage": {
-      "min": 294,
-      "max": 302
+      "min": 296,
+      "max": 304
     },
     "abilities": [
       {
@@ -4681,8 +4681,8 @@
     "attackType": "chaos",
     "range": 90,
     "damage": {
-      "min": 61,
-      "max": 63
+      "min": 67,
+      "max": 69
     },
     "abilities": [
       {

@@ -21,7 +21,7 @@ export default function BuilderSpreadsheet() {
         // @ts-ignore
         if(s.includes('|c') || s.includes('|n')) {
             console.log(s)
-            s = s.replace(/\|c([0-9A-F]{6})([0-9A-F]{2})(.*)\|r/g, '<span style="color: #$1">$3</span>')
+            s = s.replace(/\|c([0-9A-F]{2})([0-9A-F]{6})(.*)\|r/g, '<span style="color: #$2">$3</span>')
             s = s.replace(/\|n/g, '<br/>')
             console.log(s)
             return <span dangerouslySetInnerHTML={{__html: s}}/>
@@ -44,7 +44,7 @@ export default function BuilderSpreadsheet() {
     }
 
     const renderUnit = (x: UnitFighter, col: string) => {
-        return <TableRow className={styles.tr}>
+        return <TableRow key={`tr_${x.id}`} className={styles.tr}>
             <TableCell align={'right'}><img src={'/assets/icons/units/'+x.id+'.png'} loading={'lazy'}/></TableCell>
             <TableCell style={{color: col}}>{x.name}</TableCell>
             <TableCell>{x.goldCost}</TableCell>
