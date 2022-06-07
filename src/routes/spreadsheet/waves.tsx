@@ -124,7 +124,7 @@ export default function WavesSpreadsheet() {
                 <TableRow>
                     <TableCell align={'center'} colSpan={2}>1 hit</TableCell>
                     <TableCell align={'center'} colSpan={2}>2 hits</TableCell>
-                    <TableCell align={'center'} colSpan={2}>3 hit</TableCell>
+                    <TableCell align={'center'} colSpan={2}>3 hits</TableCell>
                 </TableRow>
             </TableHead>
             <TableBody>
