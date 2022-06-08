@@ -61,13 +61,13 @@ export default function WavesSpreadsheet() {
                 renderAbilities(x.abilities)
             }</TableCell>
             <TableCell colSpan={2} align={'center'}>
-                {calculateKingUpgradesNeededToKillWithHits(1, x.hp, 8+(plus5Arm?5:0), mode)}
+                {calculateKingUpgradesNeededToKillWithHits(3, x.hp, 8+(plus5Arm?5:0), mode)}
             </TableCell>
             <TableCell colSpan={2} align={'center'}>
                 {calculateKingUpgradesNeededToKillWithHits(2, x.hp, 8+(plus5Arm?5:0), mode)}
             </TableCell>
             <TableCell colSpan={2} align={'center'}>
-                {calculateKingUpgradesNeededToKillWithHits(3, x.hp, 8+(plus5Arm?5:0), mode)}
+                {calculateKingUpgradesNeededToKillWithHits(1, x.hp, 8+(plus5Arm?5:0), mode)}
             </TableCell>
         </TableRow>
     }
@@ -122,9 +122,9 @@ export default function WavesSpreadsheet() {
                     }} color={'primary'}/> +5 arm</TableCell>
                 </TableRow>
                 <TableRow>
-                    <TableCell align={'center'} colSpan={2}>1 hit</TableCell>
-                    <TableCell align={'center'} colSpan={2}>2 hits</TableCell>
                     <TableCell align={'center'} colSpan={2}>3 hits</TableCell>
+                    <TableCell align={'center'} colSpan={2}>2 hits</TableCell>
+                    <TableCell align={'center'} colSpan={2}>1 hit</TableCell>
                 </TableRow>
             </TableHead>
             <TableBody>
