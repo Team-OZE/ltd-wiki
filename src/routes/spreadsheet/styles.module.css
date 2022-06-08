@@ -8,10 +8,10 @@
 .th {
     position: sticky;
     top: 5rem;
-    border-collapse: separate;
 }
 
-.th > tr {
+table {
+    border-collapse: separate!important;
 }
 
 .tdContainer {
