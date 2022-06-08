@@ -88,7 +88,7 @@ export default function WavesSpreadsheet() {
     }
 
     return <div>
-        <Table stickyHeader={true}>
+        <Table>
             <TableHead className={styles.th} sx={{'& > th': {top: '5rem'}}}>
                 <TableRow>
                     <TableCell rowSpan={2}/>

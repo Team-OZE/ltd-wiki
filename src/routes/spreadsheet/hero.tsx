@@ -70,7 +70,7 @@ export default function HeroSpreadsheet() {
     }
 
     return <div>
-        <Table stickyHeader={true}>
+        <Table>
             <TableHead className={styles.th} sx={{'& > th': {top: '5rem'}}}>
                 <TableCell/>
                 <TableCell>Name</TableCell>
