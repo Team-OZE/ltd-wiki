@@ -1,7 +1,7 @@
 export const formatWc3String = (s: string) => {
     // @ts-ignore
     if(s.includes('|c') || s.includes('|n')) {
-        s = s.replace(/\|c([0-9A-F]{2})([0-9A-F]{6})(.*)\|r/g, '<span style="color: #$2">$3</span>')
+        s = s.replace(/\|c([0-9A-Fa-f]{2})([0-9A-Fa-f]{6})(.*)\|r/g, '<span style="color: #$2">$3</span>')
         s = s.replace(/\|n/g, '<br/>')
         return <span dangerouslySetInnerHTML={{__html: s}}/>
     }
