@@ -11,7 +11,7 @@ export const formatWc3String = (s: string) => {
 const baseKingDamages = {
     'x1': 100,
     'x3': 200,
-    'x4': 150
+    'x4': 200
 }
 
 export const calculateKingUpgradesNeededToKillWithHits = (hits: number, creepHp: number, creepArmor: number, mode: 'x1' | 'x3' | 'x4') => {
