@@ -14,12 +14,16 @@ const baseKingDamages = {
     'x4': 200
 }
 
-export const calculateKingUpgradesNeededToKillWithHits = (hits: number, creepHp: number, creepArmor: number, mode: 'x1' | 'x3' | 'x4') => {
+export const calculateKingUpgradesNeededToKillWithHits = (hits: number, creepHp: number, creepArmor: number, mode: 'x1' | 'x3' | 'x4', waveNo: number) => {
+    let baseKingDmgModifier = 1
+    if(['x3', 'x4'].includes(mode) && waveNo < 5) {
+        baseKingDmgModifier = 1.6
+    }
     const calc = Math.max(Math.ceil(
         (
             creepHp / (
                 1 - (.06*creepArmor/(1+.06*creepArmor))
-            ) / hits - baseKingDamages[mode]
+            ) / hits - (baseKingDamages[mode] * baseKingDmgModifier)
         ) / 10
     ), 0)
 

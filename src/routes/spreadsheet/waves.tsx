@@ -61,13 +61,13 @@ export default function WavesSpreadsheet() {
                 renderAbilities(x.abilities)
             }</TableCell>
             <TableCell colSpan={2} align={'center'}>
-                {calculateKingUpgradesNeededToKillWithHits(3, x.hp, 8+(plus5Arm?5:0), mode)}
+                {calculateKingUpgradesNeededToKillWithHits(3, x.hp, 8+(plus5Arm?5:0), mode, x.wave)}
             </TableCell>
             <TableCell colSpan={2} align={'center'}>
-                {calculateKingUpgradesNeededToKillWithHits(2, x.hp, 8+(plus5Arm?5:0), mode)}
+                {calculateKingUpgradesNeededToKillWithHits(2, x.hp, 8+(plus5Arm?5:0), mode, x.wave)}
             </TableCell>
             <TableCell colSpan={2} align={'center'}>
-                {calculateKingUpgradesNeededToKillWithHits(1, x.hp, 8+(plus5Arm?5:0), mode)}
+                {calculateKingUpgradesNeededToKillWithHits(1, x.hp, 8+(plus5Arm?5:0), mode, x.wave)}
             </TableCell>
         </TableRow>
     }
