@@ -11,8 +11,6 @@ export default function BuilderSpreadsheet() {
     const [data, setData] = useState<UnitFighter[]>([])
 
     useEffect(()=>{
-
-        console.log(calculateKingUpgradesNeededToKillWithHits(3, 530, 10, 'x1'))
         fetch(endpoint).then((d)=>d.json()).then(setData)
     },[])
 
