@@ -1,11 +1,17 @@
 export const formatWc3String = (s: string) => {
+    s = s.replace(/\|n/g, '<br/>')
     // @ts-ignore
-    if(s.includes('|c') || s.includes('|n')) {
-        s = s.replace(/\|c([0-9A-Fa-f]{2})([0-9A-Fa-f]{6})(.*)\|r/g, '<span style="color: #$2">$3</span>')
-        s = s.replace(/\|n/g, '<br/>')
-        return <span dangerouslySetInnerHTML={{__html: s}}/>
+    const textPortions = s.split(/\|c([0-9A-Fa-f]{2})([0-9A-Fa-f]{6})|\|r/g)
+    let match
+    const matches: string[] = []
+    const regex = /\|c([0-9A-Fa-f]{2})([0-9A-Fa-f]{6})|\|r/g
+    while ((match = regex.exec(s))) {
+        matches.push(match[2] ? '#'+ match[2] : 'unset')
     }
-    else return s
+    const strings = s.split(/\|c[0-9A-Fa-f]{2}[0-9A-Fa-f]{6}|\|r/g)
+    console.log(matches, strings)
+    const res_strings = strings.map((x, i) => i > 0 ? `<span style="color: ${matches[i-1]}">${x}</span>` : x)
+    return <span dangerouslySetInnerHTML={{__html: res_strings.join('')}}/>
 }
 
 const baseKingDamages = {
