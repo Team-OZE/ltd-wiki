@@ -1,1 +1,978 @@
-[{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Increases nearby friendly units' movement speed by 5% and life regeneration rate by 4hp/s.|nRange: 600","id":"A0C1","displayName":"Unholy Aura","name":"Unholy Aura - [|cffffcc00Level 1|r]"}],"attackSpeed":0.8,"damage":{"min":90,"max":100},"goldCost":200,"hp":1000,"id":"h0DF","movementSpeed":240,"name":"Death Knight - [|cffffcc00Level 1|r]","range":200,"tier":null,"upgrades":["h0DG"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"A poison attack that deals 100 damage per second, and slows the target enemy's movement by 25% and attack by 25% for 5 seconds.","id":"A0HI","displayName":"Deadly Poison","name":"Deadly Poison"},{"description":"Increases nearby friendly units' movement speed by 10% and life regeneration rate by 8hp/s.|nRange: 600","id":"A0C3","displayName":"Unholy Aura","name":"Unholy Aura - [|cffffcc00Level 2|r]"}],"attackSpeed":0.8,"damage":{"min":165,"max":165},"goldCost":400,"hp":1800,"id":"h0DG","movementSpeed":240,"name":"Death Knight - [|cffffcc00Level 2|r]","range":200,"tier":null,"upgrades":["h0DC"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Raises 5 dead friendly units in an area to fight for the Death Knight for 30 seconds","id":"A99A","displayName":"Animate Dead","name":"Animate Dead"},{"description":"Increases nearby friendly units' movement speed by 15% and life regeneration rate by 18hp/s.|nRange: 600","id":"A0CC","displayName":"Unholy Aura","name":"Unholy Aura - [|cffffcc00Level 3|r]"},{"description":"A poison attack that deals 100 damage per second, and slows the target enemy's movement by 25% and attack by 25% for 5 seconds.","id":"A0HI","displayName":"Deadly Poison","name":"Deadly Poison"}],"attackSpeed":0.8,"damage":{"min":275,"max":275},"goldCost":700,"hp":3000,"id":"h0DC","movementSpeed":240,"name":"Death Knight - [|cffffcc00Level 3|r]","range":200,"tier":null,"upgrades":[]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Decreases the damage of nearby enemies by 5%.|nRange: 700","id":"A0CK","displayName":"Darkness Aura","name":"Darkness Aura"}],"attackSpeed":0.65,"damage":{"min":90,"max":100},"goldCost":200,"hp":400,"id":"h0EH","movementSpeed":240,"name":"Dark Ranger - [|cffffcc00Level 1|r]","range":500,"tier":null,"upgrades":["h0EG"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Decreases the damage of nearby enemies by 10%.|nRange: 700","id":"A0D2","displayName":"Darkness Aura","name":"Darkness Aura"},{"description":"Reduces a target enemy unit's armor by 6. Lasts 6 seconds.","id":"A0HL","displayName":"Black Arrow","name":"Black Arrow"}],"attackSpeed":0.65,"damage":{"min":165,"max":165},"goldCost":400,"hp":1200,"id":"h0EG","movementSpeed":240,"name":"Dark Ranger - [|cffffcc00Level 2|r]","range":500,"tier":null,"upgrades":["h0EF"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Units in a 300 AOE around Dark Ranger's attack miss 100% of attacks for 3 seconds.","id":"A99S","displayName":"A99S","name":"A99S"},{"description":"Decreases the damage of nearby enemies by 15%.|nRange: 700","id":"A0D1","displayName":"Darkness Aura","name":"Darkness Aura"},{"description":"Reduces a target enemy unit's armor by 6. Lasts 6 seconds.","id":"A0HL","displayName":"Black Arrow","name":"Black Arrow"}],"attackSpeed":0.6,"damage":{"min":275,"max":275},"goldCost":600,"hp":2000,"id":"h0EF","movementSpeed":240,"name":"Dark Ranger - [|cffffcc00Level 3|r]","range":650,"tier":null,"upgrades":[]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"An aura that gives friendly nearby units a damage shield, which deals 20% of an enemy unit's melee attack damage back to it.|nRange: 600","id":"A0D6","displayName":"Thorns Aura","name":"Thorns Aura - [|cffffcc00Level 1|r]"}],"attackSpeed":0.8,"damage":{"min":90,"max":100},"goldCost":200,"hp":400,"id":"h0ES","movementSpeed":240,"name":"Keeper of the Grove - [|cffffcc00Level 1|r]","range":500,"tier":null,"upgrades":["h0ET"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Calls forth a wave of healing energy that bounces up to 4 times, healing 500 hit points on the primary target. Each jump heals 50% less hit points (8 second Cooldown).","id":"A0JH","displayName":"Lesser Healing Wave","name":"Lesser Healing Wave"},{"description":"An aura that gives friendly nearby units a damage shield, which deals 35% of an enemy unit's melee attack damage back to it.|nRange: 600","id":"A0DG","displayName":"Thorns Aura","name":"Thorns Aura - [|cffffcc00Level 2|r]"}],"attackSpeed":0.8,"damage":{"min":165,"max":165},"goldCost":400,"hp":1200,"id":"h0ET","movementSpeed":240,"name":"Keeper of the Grove - [|cffffcc00Level 2|r]","range":500,"tier":null,"upgrades":["h0F1"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Causes rains of healing energy to pour down in a large area (1500 radius), healing friendly allied units for 125 hit points per second. |n|nLasts 9 seconds.","id":"A99T","displayName":"Tranquility","name":"Tranquility"},{"description":"Calls forth a wave of healing energy that bounces up to 4 times, healing 500 hit points on the primary target. Each jump heals 50% less hit points (8 second Cooldown).","id":"A0HJ","displayName":"Healing Wave","name":"Healing Wave"},{"description":"An aura that gives friendly nearby units a damage shield, which deals 50% of an enemy unit's melee attack damage back to it.|nRange: 600","id":"A0D8","displayName":"Thorns Aura","name":"Thorns Aura - [|cffffcc00Level 10|r]"}],"attackSpeed":0.7,"damage":{"min":275,"max":275},"goldCost":700,"hp":2800,"id":"h0F1","movementSpeed":240,"name":"Keeper of the Grove - [|cffffcc00Level 3|r]","range":500,"tier":null,"upgrades":[]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"An aura that gives friendly nearby units a 6% bonus damage to their ranged attacks.|nRange: 600","id":"A0DV","displayName":"Trueshot Aura","name":"Trueshot Aura - [|cffffcc00Level 1|r]"}],"attackSpeed":0.65,"damage":{"min":90,"max":100},"goldCost":200,"hp":400,"id":"h0FM","movementSpeed":240,"name":"Priestess of the Moon - [|cffffcc00Level 1|r]","range":600,"tier":null,"upgrades":["h0FN"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Slows a target enemy unit's attack rate by 50% and movement speed by 50%.","id":"A0HK","displayName":"Frost Arrows","name":"Frost Arrows"},{"description":"An aura that gives friendly nearby units a 9% bonus damage to their ranged attacks.|nRange: 600","id":"A0E2","displayName":"Trueshot Aura","name":"Trueshot Aura - [|cffffcc00Level 2|r]"}],"attackSpeed":0.65,"damage":{"min":165,"max":165},"goldCost":400,"hp":1200,"id":"h0FN","movementSpeed":240,"name":"Priestess of the Moon - [|cffffcc00Level 2|r]","range":600,"tier":null,"upgrades":["h0FO"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"An aura that gives friendly nearby units a 12% bonus damage to their ranged attacks.|nRange: 600","id":"A0DY","displayName":"Trueshot Aura","name":"Trueshot Aura - [|cffffcc00Level 3|r]"},{"description":"Slows a target enemy unit's attack rate by 50% and movement speed by 50%.","id":"A0HK","displayName":"Frost Arrows","name":"Frost Arrows"}],"attackSpeed":0.65,"damage":{"min":275,"max":275},"goldCost":700,"hp":2000,"id":"h0FO","movementSpeed":240,"name":"Priestess of the Moon - [|cffffcc00Level 3|r]","range":600,"tier":null,"upgrades":[]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Increases nearby friendly units' mana regeneration by 8%.|nRange: 900","id":"A0EA","displayName":"Brilliance Aura","name":"Brilliance Aura - [|cffffcc00Level 1|r]"}],"attackSpeed":0.75,"damage":{"min":90,"max":100},"goldCost":200,"hp":400,"id":"h0GH","movementSpeed":240,"name":"Archmage - [|cffffcc00Level 1|r]","range":600,"tier":null,"upgrades":["h0GF"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Increases nearby friendly units' mana regeneration by 15%.|nRange: 600","id":"A0EJ","displayName":"Brilliance Aura","name":"Brilliance Aura - [|cffffcc00Level 2|r]"},{"description":"Increases a target friendly unit's damage by 20% and armor by 3. |nLasts 15 seconds.","id":"A0HN","displayName":"Spiritual Flicker","name":"Spiritual Flicker"}],"attackSpeed":0.75,"damage":{"min":165,"max":165},"goldCost":400,"hp":1200,"id":"h0GF","movementSpeed":240,"name":"Archmage - [|cffffcc00Level 2|r]","range":600,"tier":null,"upgrades":["h0GE"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Every 5 seconds, the Archmage will summon a Phoenix Egg that cannot attack, but will cast a 2 small blizzard waves that deal 100 damage to all nearby units.  |n|n|cff00ffffPhoenix Eggs last for ten seconds|r","id":"A942","displayName":"Summon Phoenix Egg","name":"Summon |cffffcc00Phoenix Egg|r"},{"description":"Increases nearby friendly units' mana regeneration by 20%.|nRange: 600","id":"A0EN","displayName":"Brilliance Aura","name":"Brilliance Aura - [|cffffcc00Level 3|r]"},{"description":"Increases a target friendly unit's damage by 20% and armor by 3. |nLasts 15 seconds.","id":"A0HX","displayName":"Spiritual Flame","name":"Spiritual Flame"}],"attackSpeed":0.75,"damage":{"min":275,"max":275},"goldCost":700,"hp":2000,"id":"h0GE","movementSpeed":240,"name":"Archmage - [|cffffcc00Level 3|r]","range":600,"tier":null,"upgrades":[]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Nearby friendly melee units gain 7% of their attack damage when they hit enemy units.|nRange: 600","id":"A0F2","displayName":"Vampiric Aura","name":"Vampiric Aura - [|cffffcc00Level 1|r]"}],"attackSpeed":0.8,"damage":{"min":90,"max":100},"goldCost":200,"hp":1000,"id":"h0H0","movementSpeed":240,"name":"Dread Lord - [|cffffcc00Level 1|r]","range":200,"tier":null,"upgrades":["h0GT"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Gives a 55% chance to avoid an attack.","id":"A0HS","displayName":"Serpentine Agility","name":"Evasion - [|cffffcc00Level 1|r],Evasion - [|cffffcc00Level 2|r],Evasion - [|cffffcc00Level 3|r]"},{"description":"Nearby friendly melee units gain 11% of their attack damage when they hit enemy units.|nRange: 600","id":"A0F4","displayName":"Vampiric Aura","name":"Vampiric Aura - [|cffffcc00Level 2|r]"}],"attackSpeed":0.8,"damage":{"min":165,"max":165},"goldCost":400,"hp":1800,"id":"h0GT","movementSpeed":240,"name":"Dread Lord - [|cffffcc00Level 2|r]","range":200,"tier":null,"upgrades":["h0GZ"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Over 10 seconds gradually release 50 locusts that deal 13.5 dps. After 20 seconds, or after dealing 50 damage, they return to the dreadlord and heal him for 75% of the damage dealt.","id":"A99L","displayName":"Locust Swarm","name":"Locust Swarm"},{"description":"Nearby friendly melee units gain 16% of their attack damage when they hit enemy units.|N|nRange: 900","id":"A0F7","displayName":"Vampiric Aura","name":"Vampiric Aura - [|cffffcc00Level 3|r]"},{"description":"Gives a 55% chance to avoid an attack.","id":"A0HS","displayName":"Serpentine Agility","name":"Evasion - [|cffffcc00Level 1|r],Evasion - [|cffffcc00Level 2|r],Evasion - [|cffffcc00Level 3|r]"}],"attackSpeed":0.8,"damage":{"min":275,"max":275},"goldCost":700,"hp":3000,"id":"h0GZ","movementSpeed":240,"name":"Dread Lord - [|cffffcc00Level 3|r]","range":200,"tier":null,"upgrades":[]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Slows nearby enemie's movement speed by 15%.|nRange: 750","id":"A0FT","displayName":"A0FT","name":"Slow Aura"}],"attackSpeed":0.65,"damage":{"min":90,"max":100},"goldCost":200,"hp":400,"id":"h0HK","movementSpeed":240,"name":"Naga Sea Witch - [|cffffcc00Level 1|r]","range":500,"tier":null,"upgrades":["h0HJ"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Envelops a friendly unit in a shield of water for 15 (15) seconds, giving it +8 armor and slowing units who attack it.","id":"A0HP","displayName":"Water Shield","name":"Water Shield"},{"description":"Slows nearby enemie's movement speed by 30%.|nRange: 750","id":"A0FV","displayName":"A0FV","name":"Slow Aura"}],"attackSpeed":0.65,"damage":{"min":165,"max":165},"goldCost":400,"hp":1200,"id":"h0HJ","movementSpeed":240,"name":"Naga Sea Witch - [|cffffcc00Level 2|r]","range":500,"tier":null,"upgrades":["h0HI"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Fire Arrows at three additional enemies","id":"A99M","displayName":"Multishot","name":"Multishot"},{"description":"Slows nearby enemie's movement speed by 45%.|nRange: 750","id":"A0FS","displayName":"A0FS","name":"Slow Aura"},{"description":"Envelops a friendly unit in a shield of water for 15 (15) seconds, giving it +8 armor and slowing units who attack it.","id":"A0HP","displayName":"Water Shield","name":"Water Shield"},{"description":"Allows the Naga Sea Witch to peer into the unknown and reveal what is hidden. |n|nThis takes an incredible amount of effort on her part, and may only be done once.","id":"AB15","displayName":"Mirror of Truth","name":"Mirror of Truth"}],"attackSpeed":0.65,"damage":{"min":275,"max":275},"goldCost":700,"hp":2000,"id":"h0HI","movementSpeed":240,"name":"Naga Sea Witch - [|cffffcc00Level 3|r]","range":500,"tier":null,"upgrades":[]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Increases nearby friendly units' attack damage by 7%.|nRange: 600","id":"A0G1","displayName":"A0G1","name":"A0G1"}],"attackSpeed":0.8,"damage":{"min":90,"max":100},"goldCost":200,"hp":1000,"id":"h0HY","movementSpeed":240,"name":"Mountain King - [|cffffcc00Level 1|r]","range":200,"tier":null,"upgrades":["h0HZ"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Each attack has a 30% chance to to 300 bonus damage and stun target for 4 seconds (2 seconds on boss).","id":"A0HQ","displayName":"Swipe","name":"Swipe"},{"description":"Increases nearby friendly units' attack damage by 9%.|nRange: 600","id":"A0GA","displayName":"A0GA","name":"A0GA"}],"attackSpeed":0.8,"damage":{"min":165,"max":165},"goldCost":400,"hp":1800,"id":"h0HZ","movementSpeed":240,"name":"Mountain King - [|cffffcc00Level 2|r]","range":200,"tier":null,"upgrades":["h0I0"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Slams the ground, dealing 100 damage to nearby enemy land units and slowing their movement by 50% and attack rate by 50% for 4 seconds.","id":"A99C","displayName":"Thunder Clap","name":"Thunder Clap - [|cffffcc00Level 1|r],Thunder Clap - [|cffffcc00Level 2|r],Thunder Clap - [|cffffcc00Level 3|r]"},{"description":"Increases attack damage by 9% for both you |cffc97e19and your allies|r.|n|nRange: Infinite","id":"A0GB","displayName":"A0GB","name":"A0GB"},{"description":"Each attack has a 30% chance to to 300 bonus damage and stun target for 4 seconds (2 seconds on boss).","id":"A0HQ","displayName":"Swipe","name":"Swipe"}],"attackSpeed":0.8,"damage":{"min":275,"max":275},"goldCost":700,"hp":3000,"id":"h0I0","movementSpeed":240,"name":"Mountain King - [|cffffcc00Level 3|r]","range":200,"tier":null,"upgrades":[]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Increases nearby friendly units' attack rate by 6%.|nRange: 600","id":"A0GQ","displayName":"Endurance Aura","name":"Endurance Aura - [|cffffcc00Level 1|r]"}],"attackSpeed":0.8,"damage":{"min":90,"max":100},"goldCost":200,"hp":1000,"id":"h0IJ","movementSpeed":240,"name":"Tauren Chieftain - [|cffffcc00Level 1|r]","range":200,"tier":null,"upgrades":["h0IM"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Gives a 25% chance to do 10x damage on an attack.","id":"A0HR","displayName":"Death Blow","name":"Death Blow"},{"description":"Increases nearby friendly units' attack rate by 8%.|nRange: 600","id":"A0GU","displayName":"Endurance Aura","name":"Endurance Aura - [|cffffcc00Level 2|r]"}],"attackSpeed":0.8,"damage":{"min":165,"max":165},"goldCost":400,"hp":1800,"id":"h0IM","movementSpeed":240,"name":"Tauren Chieftain - [|cffffcc00Level 2|r]","range":200,"tier":null,"upgrades":["h0IN"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"The Tauren Chieftain gains massive amounts of health, and regenerates health each second","id":"A99P","displayName":"Hero of the People","name":"Hero Of The People"},{"description":"When killed, the Tauren Chieftain will come back to life after 1 second.","id":"A99R","displayName":"Reincarnation","name":"Reincarnation"},{"description":"Increases nearby friendly units' attack rate by 10%.|nRange: 600","id":"A0GV","displayName":"Endurance Aura","name":"Endurance Aura - [|cffffcc00Level 3|r]"},{"description":"Gives a 25% chance to do 10x damage on an attack.","id":"A0HR","displayName":"Death Blow","name":"Death Blow"}],"attackSpeed":0.6,"damage":{"min":275,"max":275},"goldCost":700,"hp":6000,"id":"h0IN","movementSpeed":240,"name":"Tauren Chieftain - [|cffffcc00Level 3|r]","range":200,"tier":null,"upgrades":[]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Gives 2 additional armor to nearby friendly units.|nRange: 600","id":"A0HG","displayName":"Devotion Aura","name":"Devotion Aura - [|cffffcc00Level1|r]"}],"attackSpeed":0.8,"damage":{"min":90,"max":100},"goldCost":200,"hp":1000,"id":"h0J6","movementSpeed":240,"name":"Paladin - [|cffffcc00Level 1|r]","range":200,"tier":null,"upgrades":["h0J7"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Heals a target friendly unit for 350 hit points.","id":"A0HB","displayName":"Heal","name":"Heal"},{"description":"Gives 3 additional armor to nearby friendly units.|nRange: 600","id":"A0HF","displayName":"Devotion Aura","name":"Devotion Aura - [|cffffcc00Level 2|r]"}],"attackSpeed":0.8,"damage":{"min":165,"max":165},"goldCost":400,"hp":1700,"id":"h0J7","movementSpeed":240,"name":"Paladin - [|cffffcc00Level 2|r]","range":200,"tier":null,"upgrades":["h0J8"]},{"armorType":"hero","attackType":"chaos","abilities":[{"description":"Gives 4 additional armor to nearby friendly units.|nRange: 600","id":"A0HC","displayName":"Devotion Aura","name":"Devotion Aura - [|cffffcc00Level 3|r]"},{"description":"Heals a target friendly unit for 350 hit points.","id":"A0HB","displayName":"Heal","name":"Heal"},{"description":"The Paladin is graced by heaven's touch. He, and one other chosen unit close to him become nearly impervious to all damage for 8 seconds.","id":"AB99","displayName":"Hand of God","name":"Hand of God"}],"attackSpeed":0.8,"damage":{"min":275,"max":275},"goldCost":700,"hp":3000,"id":"h0J8","movementSpeed":240,"name":"Paladin - [|cffffcc00Level 3|r]","range":200,"tier":null,"upgrades":[]}]
+[
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Increases nearby friendly units' movement speed by 5% and life regeneration rate by 4hp/s.|nRange: 600",
+        "id": "A0C1",
+        "displayName": "Unholy Aura",
+        "name": "Unholy Aura - [|cffffcc00Level 1|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 1000,
+    "id": "h0DF",
+    "movementSpeed": 240,
+    "name": "Death Knight - [|cffffcc00Level 1|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0DG"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "A poison attack that deals 100 damage per second, and slows the target enemy's movement by 25% and attack by 25% for 5 seconds.",
+        "id": "A0HI",
+        "displayName": "Deadly Poison",
+        "name": "Deadly Poison"
+      },
+      {
+        "description": "Increases nearby friendly units' movement speed by 10% and life regeneration rate by 8hp/s.|nRange: 600",
+        "id": "A0C3",
+        "displayName": "Unholy Aura",
+        "name": "Unholy Aura - [|cffffcc00Level 2|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1800,
+    "id": "h0DG",
+    "movementSpeed": 240,
+    "name": "Death Knight - [|cffffcc00Level 2|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0DC"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Raises 5 dead friendly units in an area to fight for the Death Knight for 30 seconds",
+        "id": "A99A",
+        "displayName": "Animate Dead",
+        "name": "Animate Dead"
+      },
+      {
+        "description": "Increases nearby friendly units' movement speed by 15% and life regeneration rate by 18hp/s.|nRange: 600",
+        "id": "A0CC",
+        "displayName": "Unholy Aura",
+        "name": "Unholy Aura - [|cffffcc00Level 3|r]"
+      },
+      {
+        "description": "A poison attack that deals 100 damage per second, and slows the target enemy's movement by 25% and attack by 25% for 5 seconds.",
+        "id": "A0HI",
+        "displayName": "Deadly Poison",
+        "name": "Deadly Poison"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 700,
+    "hp": 3000,
+    "id": "h0DC",
+    "movementSpeed": 240,
+    "name": "Death Knight - [|cffffcc00Level 3|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": []
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Decreases the damage of nearby enemies by 5%.|nRange: 700",
+        "id": "A0CK",
+        "displayName": "Darkness Aura",
+        "name": "Darkness Aura"
+      }
+    ],
+    "attackSpeed": 0.65,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 400,
+    "id": "h0EH",
+    "movementSpeed": 240,
+    "name": "Dark Ranger - [|cffffcc00Level 1|r]",
+    "range": 500,
+    "tier": null,
+    "upgrades": [
+      "h0EG"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Decreases the damage of nearby enemies by 10%.|nRange: 700",
+        "id": "A0D2",
+        "displayName": "Darkness Aura",
+        "name": "Darkness Aura"
+      },
+      {
+        "description": "Reduces a target enemy unit's armor by 6. Lasts 6 seconds.",
+        "id": "A0HL",
+        "displayName": "Black Arrow",
+        "name": "Black Arrow"
+      }
+    ],
+    "attackSpeed": 0.65,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1200,
+    "id": "h0EG",
+    "movementSpeed": 240,
+    "name": "Dark Ranger - [|cffffcc00Level 2|r]",
+    "range": 500,
+    "tier": null,
+    "upgrades": [
+      "h0EF"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Units in a 300 AOE around Dark Ranger's attack miss 100% of attacks for 3 seconds.",
+        "id": "A99S",
+        "displayName": "Silence",
+        "name": "Silence"
+      },
+      {
+        "description": "Decreases the damage of nearby enemies by 15%.|nRange: 700",
+        "id": "A0D1",
+        "displayName": "Darkness Aura",
+        "name": "Darkness Aura"
+      },
+      {
+        "description": "Reduces a target enemy unit's armor by 6. Lasts 6 seconds.",
+        "id": "A0HL",
+        "displayName": "Black Arrow",
+        "name": "Black Arrow"
+      }
+    ],
+    "attackSpeed": 0.6,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 600,
+    "hp": 2000,
+    "id": "h0EF",
+    "movementSpeed": 240,
+    "name": "Dark Ranger - [|cffffcc00Level 3|r]",
+    "range": 650,
+    "tier": null,
+    "upgrades": []
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "An aura that gives friendly nearby units a damage shield, which deals 20% of an enemy unit's melee attack damage back to it.|nRange: 600",
+        "id": "A0D6",
+        "displayName": "Thorns Aura",
+        "name": "Thorns Aura - [|cffffcc00Level 1|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 400,
+    "id": "h0ES",
+    "movementSpeed": 240,
+    "name": "Keeper of the Grove - [|cffffcc00Level 1|r]",
+    "range": 500,
+    "tier": null,
+    "upgrades": [
+      "h0ET"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Calls forth a wave of healing energy that bounces up to 4 times, healing 500 hit points on the primary target. Each jump heals 50% less hit points (8 second Cooldown).",
+        "id": "A0JH",
+        "displayName": "Lesser Healing Wave",
+        "name": "Lesser Healing Wave"
+      },
+      {
+        "description": "An aura that gives friendly nearby units a damage shield, which deals 35% of an enemy unit's melee attack damage back to it.|nRange: 600",
+        "id": "A0DG",
+        "displayName": "Thorns Aura",
+        "name": "Thorns Aura - [|cffffcc00Level 2|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1200,
+    "id": "h0ET",
+    "movementSpeed": 240,
+    "name": "Keeper of the Grove - [|cffffcc00Level 2|r]",
+    "range": 500,
+    "tier": null,
+    "upgrades": [
+      "h0F1"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Causes rains of healing energy to pour down in a large area (1500 radius), healing friendly allied units for 125 hit points per second. |n|nLasts 9 seconds.",
+        "id": "A99T",
+        "displayName": "Tranquility",
+        "name": "Tranquility"
+      },
+      {
+        "description": "Calls forth a wave of healing energy that bounces up to 4 times, healing 500 hit points on the primary target. Each jump heals 50% less hit points (8 second Cooldown).",
+        "id": "A0HJ",
+        "displayName": "Healing Wave",
+        "name": "Healing Wave"
+      },
+      {
+        "description": "An aura that gives friendly nearby units a damage shield, which deals 50% of an enemy unit's melee attack damage back to it.|nRange: 600",
+        "id": "A0D8",
+        "displayName": "Thorns Aura",
+        "name": "Thorns Aura - [|cffffcc00Level 10|r]"
+      }
+    ],
+    "attackSpeed": 0.7,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 700,
+    "hp": 2800,
+    "id": "h0F1",
+    "movementSpeed": 240,
+    "name": "Keeper of the Grove - [|cffffcc00Level 3|r]",
+    "range": 500,
+    "tier": null,
+    "upgrades": []
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "An aura that gives friendly nearby units a 6% bonus damage to their ranged attacks.|nRange: 600",
+        "id": "A0DV",
+        "displayName": "Trueshot Aura",
+        "name": "Trueshot Aura - [|cffffcc00Level 1|r]"
+      }
+    ],
+    "attackSpeed": 0.65,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 400,
+    "id": "h0FM",
+    "movementSpeed": 240,
+    "name": "Priestess of the Moon - [|cffffcc00Level 1|r]",
+    "range": 600,
+    "tier": null,
+    "upgrades": [
+      "h0FN"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Slows a target enemy unit's attack rate by 50% and movement speed by 50%.",
+        "id": "A0HK",
+        "displayName": "Frost Arrows",
+        "name": "Frost Arrows"
+      },
+      {
+        "description": "An aura that gives friendly nearby units a 9% bonus damage to their ranged attacks.|nRange: 600",
+        "id": "A0E2",
+        "displayName": "Trueshot Aura",
+        "name": "Trueshot Aura - [|cffffcc00Level 2|r]"
+      }
+    ],
+    "attackSpeed": 0.65,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1200,
+    "id": "h0FN",
+    "movementSpeed": 240,
+    "name": "Priestess of the Moon - [|cffffcc00Level 2|r]",
+    "range": 600,
+    "tier": null,
+    "upgrades": [
+      "h0FO"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "An aura that gives friendly nearby units a 12% bonus damage to their ranged attacks.|nRange: 600",
+        "id": "A0DY",
+        "displayName": "Trueshot Aura",
+        "name": "Trueshot Aura - [|cffffcc00Level 3|r]"
+      },
+      {
+        "description": "Slows a target enemy unit's attack rate by 50% and movement speed by 50%.",
+        "id": "A0HK",
+        "displayName": "Frost Arrows",
+        "name": "Frost Arrows"
+      }
+    ],
+    "attackSpeed": 0.65,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 700,
+    "hp": 2000,
+    "id": "h0FO",
+    "movementSpeed": 240,
+    "name": "Priestess of the Moon - [|cffffcc00Level 3|r]",
+    "range": 600,
+    "tier": null,
+    "upgrades": []
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Increases nearby friendly units' mana regeneration by 8%.|nRange: 900",
+        "id": "A0EA",
+        "displayName": "Brilliance Aura",
+        "name": "Brilliance Aura - [|cffffcc00Level 1|r]"
+      }
+    ],
+    "attackSpeed": 0.75,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 400,
+    "id": "h0GH",
+    "movementSpeed": 240,
+    "name": "Archmage - [|cffffcc00Level 1|r]",
+    "range": 600,
+    "tier": null,
+    "upgrades": [
+      "h0GF"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Increases nearby friendly units' mana regeneration by 15%.|nRange: 600",
+        "id": "A0EJ",
+        "displayName": "Brilliance Aura",
+        "name": "Brilliance Aura - [|cffffcc00Level 2|r]"
+      },
+      {
+        "description": "Increases a target friendly unit's damage by 20% and armor by 3. |nLasts 15 seconds.",
+        "id": "A0HN",
+        "displayName": "Spiritual Flicker",
+        "name": "Spiritual Flicker"
+      }
+    ],
+    "attackSpeed": 0.75,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1200,
+    "id": "h0GF",
+    "movementSpeed": 240,
+    "name": "Archmage - [|cffffcc00Level 2|r]",
+    "range": 600,
+    "tier": null,
+    "upgrades": [
+      "h0GE"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Every 5 seconds, the Archmage will summon a Phoenix Egg that cannot attack, but will cast a 2 small blizzard waves that deal 100 damage to all nearby units.  |n|n|cff00ffffPhoenix Eggs last for ten seconds|r",
+        "id": "A942",
+        "displayName": "Summon Phoenix Egg",
+        "name": "Summon |cffffcc00Phoenix Egg|r"
+      },
+      {
+        "description": "Increases nearby friendly units' mana regeneration by 20%.|nRange: 600",
+        "id": "A0EN",
+        "displayName": "Brilliance Aura",
+        "name": "Brilliance Aura - [|cffffcc00Level 3|r]"
+      },
+      {
+        "description": "Increases a target friendly unit's damage by 20% and armor by 3. |nLasts 15 seconds.",
+        "id": "A0HX",
+        "displayName": "Spiritual Flame",
+        "name": "Spiritual Flame"
+      }
+    ],
+    "attackSpeed": 0.75,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 700,
+    "hp": 2000,
+    "id": "h0GE",
+    "movementSpeed": 240,
+    "name": "Archmage - [|cffffcc00Level 3|r]",
+    "range": 600,
+    "tier": null,
+    "upgrades": []
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Nearby friendly melee units gain 7% of their attack damage when they hit enemy units.|nRange: 600",
+        "id": "A0F2",
+        "displayName": "Vampiric Aura",
+        "name": "Vampiric Aura - [|cffffcc00Level 1|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 1000,
+    "id": "h0H0",
+    "movementSpeed": 240,
+    "name": "Dread Lord - [|cffffcc00Level 1|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0GT"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Gives a 55% chance to avoid an attack.",
+        "id": "A0HS",
+        "displayName": "Serpentine Agility",
+        "name": "Evasion"
+      },
+      {
+        "description": "Nearby friendly melee units gain 11% of their attack damage when they hit enemy units.|nRange: 600",
+        "id": "A0F4",
+        "displayName": "Vampiric Aura",
+        "name": "Vampiric Aura - [|cffffcc00Level 2|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1800,
+    "id": "h0GT",
+    "movementSpeed": 240,
+    "name": "Dread Lord - [|cffffcc00Level 2|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0GZ"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Over 10 seconds gradually release 50 locusts that deal 13.5 dps. After 20 seconds, or after dealing 50 damage, they return to the dreadlord and heal him for 75% of the damage dealt.",
+        "id": "A99L",
+        "displayName": "Locust Swarm",
+        "name": "Locust Swarm"
+      },
+      {
+        "description": "Nearby friendly melee units gain 16% of their attack damage when they hit enemy units.|N|nRange: 900",
+        "id": "A0F7",
+        "displayName": "Vampiric Aura",
+        "name": "Vampiric Aura - [|cffffcc00Level 3|r]"
+      },
+      {
+        "description": "Gives a 55% chance to avoid an attack.",
+        "id": "A0HS",
+        "displayName": "Serpentine Agility",
+        "name": "Evasion"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 700,
+    "hp": 3000,
+    "id": "h0GZ",
+    "movementSpeed": 240,
+    "name": "Dread Lord - [|cffffcc00Level 3|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": []
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Slows nearby enemie's movement speed by 15%.|nRange: 750",
+        "id": "A0FT",
+        "displayName": "A0FT",
+        "name": "Slow Aura"
+      }
+    ],
+    "attackSpeed": 0.65,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 400,
+    "id": "h0HK",
+    "movementSpeed": 240,
+    "name": "Naga Sea Witch - [|cffffcc00Level 1|r]",
+    "range": 500,
+    "tier": null,
+    "upgrades": [
+      "h0HJ"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Envelops a friendly unit in a shield of water for 15 (15) seconds, giving it +8 armor and slowing units who attack it.",
+        "id": "A0HP",
+        "displayName": "Water Shield",
+        "name": "Water Shield"
+      },
+      {
+        "description": "Slows nearby enemie's movement speed by 30%.|nRange: 750",
+        "id": "A0FV",
+        "displayName": "A0FV",
+        "name": "Slow Aura"
+      }
+    ],
+    "attackSpeed": 0.65,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1200,
+    "id": "h0HJ",
+    "movementSpeed": 240,
+    "name": "Naga Sea Witch - [|cffffcc00Level 2|r]",
+    "range": 500,
+    "tier": null,
+    "upgrades": [
+      "h0HI"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Fire Arrows at three additional enemies",
+        "id": "A99M",
+        "displayName": "Multishot",
+        "name": "Multishot"
+      },
+      {
+        "description": "Slows nearby enemie's movement speed by 45%.|nRange: 750",
+        "id": "A0FS",
+        "displayName": "A0FS",
+        "name": "Slow Aura"
+      },
+      {
+        "description": "Envelops a friendly unit in a shield of water for 15 (15) seconds, giving it +8 armor and slowing units who attack it.",
+        "id": "A0HP",
+        "displayName": "Water Shield",
+        "name": "Water Shield"
+      },
+      {
+        "description": "Allows the Naga Sea Witch to peer into the unknown and reveal what is hidden. |n|nThis takes an incredible amount of effort on her part, and may only be done once.",
+        "id": "AB15",
+        "displayName": "Mirror of Truth",
+        "name": "Mirror of Truth"
+      }
+    ],
+    "attackSpeed": 0.65,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 700,
+    "hp": 2000,
+    "id": "h0HI",
+    "movementSpeed": 240,
+    "name": "Naga Sea Witch - [|cffffcc00Level 3|r]",
+    "range": 500,
+    "tier": null,
+    "upgrades": []
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Increases nearby friendly units' attack damage by 7%.|nRange: 600",
+        "id": "A0G1",
+        "displayName": "Command Aura",
+        "name": "Command Aura"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 1000,
+    "id": "h0HY",
+    "movementSpeed": 240,
+    "name": "Mountain King - [|cffffcc00Level 1|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0HZ"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Each attack has a 30% chance to to 300 bonus damage and stun target for 4 seconds (2 seconds on boss).",
+        "id": "A0HQ",
+        "displayName": "Swipe",
+        "name": "Swipe"
+      },
+      {
+        "description": "Increases nearby friendly units' attack damage by 9%.|nRange: 600",
+        "id": "A0GA",
+        "displayName": "Command Aura",
+        "name": "Command Aura"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1800,
+    "id": "h0HZ",
+    "movementSpeed": 240,
+    "name": "Mountain King - [|cffffcc00Level 2|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0I0"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Slams the ground, dealing 100 damage to nearby enemy land units and slowing their movement by 50% and attack rate by 50% for 4 seconds.",
+        "id": "A99C",
+        "displayName": "Thunder Clap",
+        "name": "Thunder Clap"
+      },
+      {
+        "description": "Increases attack damage by 9% for both you |cffc97e19and your allies|r.|n|nRange: Infinite",
+        "id": "A0GB",
+        "displayName": "Command Aura",
+        "name": "Command Aura"
+      },
+      {
+        "description": "Each attack has a 30% chance to to 300 bonus damage and stun target for 4 seconds (2 seconds on boss).",
+        "id": "A0HQ",
+        "displayName": "Swipe",
+        "name": "Swipe"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 700,
+    "hp": 3000,
+    "id": "h0I0",
+    "movementSpeed": 240,
+    "name": "Mountain King - [|cffffcc00Level 3|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": []
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Increases nearby friendly units' attack rate by 6%.|nRange: 600",
+        "id": "A0GQ",
+        "displayName": "Endurance Aura",
+        "name": "Endurance Aura - [|cffffcc00Level 1|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 1000,
+    "id": "h0IJ",
+    "movementSpeed": 240,
+    "name": "Tauren Chieftain - [|cffffcc00Level 1|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0IM"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Gives a 25% chance to do 10x damage on an attack.",
+        "id": "A0HR",
+        "displayName": "Death Blow",
+        "name": "Death Blow"
+      },
+      {
+        "description": "Increases nearby friendly units' attack rate by 8%.|nRange: 600",
+        "id": "A0GU",
+        "displayName": "Endurance Aura",
+        "name": "Endurance Aura - [|cffffcc00Level 2|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1800,
+    "id": "h0IM",
+    "movementSpeed": 240,
+    "name": "Tauren Chieftain - [|cffffcc00Level 2|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0IN"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "The Tauren Chieftain gains massive amounts of health, and regenerates health each second",
+        "id": "A99P",
+        "displayName": "Hero of the People",
+        "name": "Hero Of The People"
+      },
+      {
+        "description": "When killed, the Tauren Chieftain will come back to life after 1 second.",
+        "id": "A99R",
+        "displayName": "Reincarnation",
+        "name": "Reincarnation"
+      },
+      {
+        "description": "Increases nearby friendly units' attack rate by 10%.|nRange: 600",
+        "id": "A0GV",
+        "displayName": "Endurance Aura",
+        "name": "Endurance Aura - [|cffffcc00Level 3|r]"
+      },
+      {
+        "description": "Gives a 25% chance to do 10x damage on an attack.",
+        "id": "A0HR",
+        "displayName": "Death Blow",
+        "name": "Death Blow"
+      }
+    ],
+    "attackSpeed": 0.6,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 700,
+    "hp": 6000,
+    "id": "h0IN",
+    "movementSpeed": 240,
+    "name": "Tauren Chieftain - [|cffffcc00Level 3|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": []
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Gives 2 additional armor to nearby friendly units.|nRange: 600",
+        "id": "A0HG",
+        "displayName": "Devotion Aura",
+        "name": "Devotion Aura - [|cffffcc00Level1|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 90,
+      "max": 100
+    },
+    "goldCost": 200,
+    "hp": 1000,
+    "id": "h0J6",
+    "movementSpeed": 240,
+    "name": "Paladin - [|cffffcc00Level 1|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0J7"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Heals a target friendly unit for 350 hit points.",
+        "id": "A0HB",
+        "displayName": "Heal",
+        "name": "Heal"
+      },
+      {
+        "description": "Gives 3 additional armor to nearby friendly units.|nRange: 600",
+        "id": "A0HF",
+        "displayName": "Devotion Aura",
+        "name": "Devotion Aura - [|cffffcc00Level 2|r]"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 165,
+      "max": 165
+    },
+    "goldCost": 400,
+    "hp": 1700,
+    "id": "h0J7",
+    "movementSpeed": 240,
+    "name": "Paladin - [|cffffcc00Level 2|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": [
+      "h0J8"
+    ]
+  },
+  {
+    "armorType": "hero",
+    "attackType": "chaos",
+    "abilities": [
+      {
+        "description": "Gives 4 additional armor to nearby friendly units.|nRange: 600",
+        "id": "A0HC",
+        "displayName": "Devotion Aura",
+        "name": "Devotion Aura - [|cffffcc00Level 3|r]"
+      },
+      {
+        "description": "Heals a target friendly unit for 350 hit points.",
+        "id": "A0HB",
+        "displayName": "Heal",
+        "name": "Heal"
+      },
+      {
+        "description": "The Paladin is graced by heaven's touch. He, and one other chosen unit close to him become nearly impervious to all damage for 8 seconds.",
+        "id": "AB99",
+        "displayName": "Hand of God",
+        "name": "Hand of God"
+      }
+    ],
+    "attackSpeed": 0.8,
+    "damage": {
+      "min": 275,
+      "max": 275
+    },
+    "goldCost": 700,
+    "hp": 3000,
+    "id": "h0J8",
+    "movementSpeed": 240,
+    "name": "Paladin - [|cffffcc00Level 3|r]",
+    "range": 200,
+    "tier": null,
+    "upgrades": []
+  }
+]

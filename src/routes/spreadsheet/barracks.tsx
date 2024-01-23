@@ -15,7 +15,7 @@ export default function BarracksSpreadsheet() {
     },[])
 
     const AbilityRender: React.FC<{ability: Ability}> = ({ability}) => {
-        return <Tooltip className={styles.abbr} title={formatWc3String(ability.description)} placement={'top'}><span>{ability.name}</span></Tooltip>
+        return <Tooltip className={styles.abbr} title={formatWc3String(ability.description)} placement={'top'}><span>{formatWc3String(ability.name)}</span></Tooltip>
     }
 
     const renderAbilities = (abilities: Ability[] | undefined) => {
