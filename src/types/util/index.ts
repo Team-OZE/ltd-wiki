@@ -31,7 +31,8 @@ export enum ArmorType {
     large='Heavy',
     fortified='Fortified',
     normal='Fortified',
-    divine='Divine'
+    divine='Divine',
+    fort='Fortified'
 }
 
 export enum XGameMode {
