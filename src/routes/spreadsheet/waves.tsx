@@ -22,6 +22,7 @@ export default function WavesSpreadsheet() {
     const [data, setData] = useState<UnitCreep[]>([])
     const [plus5Arm, setPlus5Arm] = useState<boolean>(false)
     const [mode, setMode] = useState<'x1'|'x3'|'x4'>('x1')
+    const [isHm, setHm] = useState<boolean>(false)
 
     useEffect(()=>{
         fetch(endpoint).then((d)=>d.json()).then(setData)
@@ -48,9 +49,9 @@ export default function WavesSpreadsheet() {
             <TableCell style={{color: col}}>{x.name}</TableCell>
             <TableCell>{x.hp}</TableCell>
             <TableCell>{x.range}</TableCell>
-            <TableCell>{x.damage.min} - {x.damage.max}</TableCell>
+            <TableCell>{Math.round(x.damage.min * (isHm ? 1.15 : 1))} - {Math.round(x.damage.max * (isHm ? 1.15 : 1))}</TableCell>
             <TableCell>{x.attackSpeed.toFixed(2) || 'N/A'}</TableCell>
-            <TableCell>{((x.damage.min + x.damage.max) / (2*x.attackSpeed)).toFixed(1)}</TableCell>
+            <TableCell>{((Math.round(x.damage.min * (isHm ? 1.15 : 1)) + Math.round(x.damage.max * (isHm ? 1.15 : 1))) / (2*x.attackSpeed)).toFixed(1)}</TableCell>
             <TableCell>{x.movementSpeed.toFixed(0) || 'N/A'}</TableCell>
             {/*@ts-ignore*/}
             <TableCell><span className={styles.tdContainer}>{(x.attackType) && <img src={`/assets/icons/attack/${x.attackType}.webp`}/>}{x.attackType? AttackType[x.attackType] : 'N/A'}</span></TableCell>
@@ -60,6 +61,8 @@ export default function WavesSpreadsheet() {
             <TableCell>{
                 renderAbilities(x.abilities)
             }</TableCell>
+            <TableCell align={'center'}>
+            </TableCell>
             <TableCell colSpan={2} align={'center'}>
                 {calculateKingUpgradesNeededToKillWithHits(3, x.hp, 8+(plus5Arm?5:0), mode, x.wave)}
             </TableCell>
@@ -103,6 +106,9 @@ export default function WavesSpreadsheet() {
                     <TableCell rowSpan={2}>Attack</TableCell>
                     <TableCell rowSpan={2}>Armor</TableCell>
                     <TableCell rowSpan={2}>Abilities</TableCell>
+                    <TableCell rowSpan={2} align={'center'}><Checkbox checked={isHm} onChange={(e)=>{
+                        setHm(e.target.checked)
+                    }} color={'primary'}/> Hard Mode</TableCell>
                     <TableCell colSpan={2} align={'center'}>King dmg upgrades</TableCell>
                     <TableCell colSpan={2} align={'center'}>
                         <FormControl>
