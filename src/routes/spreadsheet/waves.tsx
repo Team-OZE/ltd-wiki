@@ -49,9 +49,9 @@ export default function WavesSpreadsheet() {
             <TableCell style={{color: col}}>{x.name}</TableCell>
             <TableCell>{x.hp}</TableCell>
             <TableCell>{x.range}</TableCell>
-            <TableCell>{Math.round(x.damage.min * (isHm ? 1.15 : 1))} - {Math.round(x.damage.max * (isHm ? 1.15 : 1))}</TableCell>
+            <TableCell>{x[isHm?'damageHm':'damage'].min} - {x[isHm?'damageHm':'damage'].max}</TableCell>
             <TableCell>{x.attackSpeed.toFixed(2) || 'N/A'}</TableCell>
-            <TableCell>{((Math.round(x.damage.min * (isHm ? 1.15 : 1)) + Math.round(x.damage.max * (isHm ? 1.15 : 1))) / (2*x.attackSpeed)).toFixed(1)}</TableCell>
+            <TableCell>{((x[isHm?'damageHm':'damage'].min + x[isHm?'damageHm':'damage'].max) / (2*x.attackSpeed)).toFixed(1)}</TableCell>
             <TableCell>{x.movementSpeed.toFixed(0) || 'N/A'}</TableCell>
             {/*@ts-ignore*/}
             <TableCell><span className={styles.tdContainer}>{(x.attackType) && <img src={`/assets/icons/attack/${x.attackType}.webp`}/>}{x.attackType? AttackType[x.attackType] : 'N/A'}</span></TableCell>
