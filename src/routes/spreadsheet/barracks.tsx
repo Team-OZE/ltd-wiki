@@ -1,4 +1,4 @@
-import {Table, TableBody, TableCell, TableHead, TableRow, Tooltip} from "@mui/material";
+import {Checkbox, Table, TableBody, TableCell, TableHead, TableRow, Tooltip} from "@mui/material";
 import {ArmorType, AttackType} from "../../types/util";
 import styles from './styles.module.css'
 import {Ability} from "../../types/Ability";
@@ -9,6 +9,7 @@ import {formatWc3String} from "./helper";
 const endpoint = '/assets/data/summon.json'
 export default function BarracksSpreadsheet() {
     const [data, setData] = useState<UnitSummon[]>([])
+    const [isHm, setHm] = useState<boolean>(false)
 
     useEffect(()=>{
         fetch(endpoint).then((d)=>d.json()).then(setData)
@@ -37,16 +38,16 @@ export default function BarracksSpreadsheet() {
             <TableCell>{x.bounty}</TableCell>
             <TableCell>{x.hp}</TableCell>
             <TableCell>{x.range}</TableCell>
-            <TableCell>{x.damage.min} - {x.damage.max}</TableCell>
+            <TableCell>{x[isHm?'damageHm':'damage'].min} - {x[isHm?'damageHm':'damage'].max}</TableCell>
             <TableCell>{x.attackSpeed.toFixed(2) || 'N/A'}</TableCell>
-            <TableCell>{((x.damage.min + x.damage.max) / (2*x.attackSpeed)).toFixed(1)}</TableCell>
+            <TableCell>{((x[isHm?'damageHm':'damage'].min + x[isHm?'damageHm':'damage'].max) / (2*x.attackSpeed)).toFixed(1)}</TableCell>
             <TableCell>{x.movementSpeed.toFixed(0) || 'N/A'}</TableCell>
             {/*@ts-ignore*/}
             <TableCell><span className={styles.tdContainer}>{(x.attackType) && <img src={`/assets/icons/attack/${x.attackType}.webp`}/>}{x.attackType? AttackType[x.attackType] : 'N/A'}</span></TableCell>
             {/*@ts-ignore*/}
             <TableCell><span className={styles.tdContainer}>{(x.armorType) && <img src={`/assets/icons/armor/${x.armorType}.webp`}/>}{x.armorType? ArmorType[x.armorType] : 'N/A'}</span></TableCell>
             {/*@ts-ignore*/}
-            <TableCell>{
+            <TableCell colSpan={2}>{
                 renderAbilities(x.abilities)
             }</TableCell>
         </TableRow>
@@ -90,6 +91,9 @@ export default function BarracksSpreadsheet() {
                 <TableCell>Attack</TableCell>
                 <TableCell>Armor</TableCell>
                 <TableCell>Abilities</TableCell>
+                <TableCell align={'center'}><Checkbox checked={isHm} onChange={(e)=>{
+                    setHm(e.target.checked)
+                }} color={'primary'}/> Hard Mode</TableCell>
             </TableHead>
             <TableBody>
                 {renderRows(data)}
