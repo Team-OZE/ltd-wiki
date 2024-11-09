@@ -32,7 +32,7 @@ export default function BuilderSpreadsheet() {
 
     const renderUnit = (x: UnitFighter, col: string) => {
         return <TableRow key={`tr_${x.id}`} className={styles.tr}>
-            <TableCell align={'right'}><img src={'/assets/icons/units/'+x.id+'.png'} loading={'lazy'}/></TableCell>
+            <TableCell align={'right'}><img src={'/assets/art/'+x.icon+'.png'} loading={'lazy'}/></TableCell>
             <TableCell style={{color: col}}>{x.name}</TableCell>
             <TableCell>{x.goldCost}</TableCell>
             <TableCell>{x.hp}</TableCell>

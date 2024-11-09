@@ -6,5 +6,5 @@ export default interface UnitSummon extends Unit {
     bounty: number
     income: number
     mode: XGameMode
-    damageHm: MinMax
+    damageHm: MinMax,
 }
