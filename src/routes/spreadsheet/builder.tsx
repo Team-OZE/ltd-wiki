@@ -6,7 +6,7 @@ import {Ability} from "../../types/Ability";
 import React, {useEffect, useState} from "react";
 import {UnitFighter} from "../../types/units/UnitFighter";
 import {calculateKingUpgradesNeededToKillWithHits, formatWc3String} from "./helper";
-const endpoint = '/assets/data/fighter.json'
+const endpoint = '/assets/data/fighters.json'
 export default function BuilderSpreadsheet() {
     const [data, setData] = useState<UnitFighter[]>([])
 

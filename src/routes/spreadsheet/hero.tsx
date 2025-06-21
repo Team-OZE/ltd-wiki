@@ -6,7 +6,7 @@ import {Ability} from "../../types/Ability";
 import React, {useEffect, useState} from "react";
 import {UnitFighter} from "../../types/units/UnitFighter";
 import {formatWc3String} from "./helper";
-const endpoint = '/assets/data/hero.json'
+const endpoint = '/assets/data/heroes.json'
 export default function HeroSpreadsheet() {
     const [data, setData] = useState<UnitFighter[]>([])
 

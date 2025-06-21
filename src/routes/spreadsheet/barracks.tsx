@@ -6,7 +6,7 @@ import React, {useEffect, useState} from "react";
 import UnitSummon from "../../types/units/UnitSummon";
 import {formatWc3String} from "./helper";
 
-const endpoint = '/assets/data/summon.json'
+const endpoint = '/assets/data/summons.json'
 export default function BarracksSpreadsheet() {
     const [data, setData] = useState<UnitSummon[]>([])
     const [isHm, setHm] = useState<boolean>(false)

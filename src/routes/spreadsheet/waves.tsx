@@ -17,7 +17,7 @@ import React, {useEffect, useState} from "react";
 import UnitCreep from "../../types/units/UnitCreep";
 import {calculateKingUpgradesNeededToKillWithHits, formatWc3String} from "./helper";
 
-const endpoint = '/assets/data/creep.json'
+const endpoint = '/assets/data/creeps.json'
 export default function WavesSpreadsheet() {
     const [data, setData] = useState<UnitCreep[]>([])
     const [plus5Arm, setPlus5Arm] = useState<boolean>(false)
